@@ -13,6 +13,7 @@ h2{
     text-align: center;
 }
 
+
 .div-projets{
     flex-wrap: wrap;
     gap: 5vw;
@@ -23,7 +24,6 @@ h2{
 .div-projets img{
     width: 100%;
     object-fit: cover;
-
 }
 .div-projets img {
     transition: 0.5s ease-in-out; /* Ajoute la transition à l'image pour que l'effet soit fluide */

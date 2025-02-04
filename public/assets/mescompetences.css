@@ -18,89 +18,6 @@ h2 {
 }
 
 
-/* 🎯 Icônes */
-.fi-rr-angle-left,
-.fi-rr-angle-right {
-    font-size: 30px;
-}
-
-/* 🎠 Boutons de carrousel */
-.carousel button,
-.carousel2 button {
-    border: none;
-    background: none;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    transition: transform 0.2s ease-in-out;
-}
-
-.carousel button:hover,
-.carousel2 button:hover {
-    transform: scale(1.2) translateY(-45%);
-}
-
-/* ◀️ Boutons précédent/suivant */
-.prev, .prev2 {
-    left: -13vw;
-}
-
-.next, .next2 {
-    right: -13vw;
-}
-
-/* 🎠 Carrousels */
-.carousel, .carousel2 {
-    position: relative;
-    width: 40vw;
-    height: 40vw;
-    margin: 3vh 8vh;
-}
-
-.carousel ul, .carousel2 ul {
-    width: 100%;
-    height: 100%;
-    flex-wrap: nowrap;
-    overflow: hidden;
-}
-
-.carousel ul li, .carousel2 ul li {
-    width: 100%;
-    height: 100%;
-}
-
-.carousel ul li img,
-.carousel2 ul li img {
-    position: absolute;
-    width: var(--largeur-image-carousel);
-    height: var(--largeur-image-carousel);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* 🎞️ Animation des slides */
-.slide, .slide2 {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.8s ease-in-out, visibility 0.8s;
-}
-
-.slide-active, .slide2-active {
-    opacity: 1;
-    visibility: visible;
-}
-
-/* 🎨 Conteneur du carrousel */
-.carousel-fond {
-    width: fit-content;
-    height: fit-content;
-    margin: 5vh auto;
-    background-color: var(--blue);
-    border-radius: 25px;
-    box-shadow: 0px 0px 5px var(--black);
-}
 
 /* 📜 Description des langages */
 .fond-description-languages {
@@ -113,7 +30,6 @@ h2 {
 .description-languages {
     width: 90vw;
     padding: 15vw;
-    padding-top: 0;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
