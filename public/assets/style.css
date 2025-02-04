@@ -145,11 +145,11 @@
 
 
 
-.active li{
+.liste-menu li{
     list-style-type: none;
 }
 
-.active a{
+.liste-menu a{
     text-decoration: none;
     color: var(--white);
     font-size: 25px;
@@ -229,7 +229,7 @@ footer ul{
 .btn-contact-me{
     position:fixed;
     right: 7px;
-    bottom: 7px;
+    bottom: 3vh;
     z-index: 17;
 }
 
