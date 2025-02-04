@@ -86,12 +86,12 @@ footer{
     opacity: 1;
     visibility: visible;
     position: fixed;
-    height: calc(100vh - 8vw);
-    width: 92vw;
+    height: 85vh;
+    width: 96vw;
     /* margin: 5vh; */
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-43%);
     background-color: var(--grey);
     z-index: 15;
     border-radius: 15px;
