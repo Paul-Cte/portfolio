@@ -86,8 +86,8 @@ footer{
     opacity: 1;
     visibility: visible;
     position: fixed;
-    height: calc(100vh - 4vw);
-    width: 96vw;
+    height: calc(100vh - 8vw);
+    width: 92vw;
     /* margin: 5vh; */
     top: 50%;
     left: 50%;

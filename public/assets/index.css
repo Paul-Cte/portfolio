@@ -20,6 +20,7 @@
     gap: 1vh;
     height: 100vh;
     background-color: white;
+    padding-bottom: 5vh;
 }
 #accueil h1{
     color: var(--black);
@@ -189,6 +190,10 @@ color: var(--black);
 
 p{
     font-size: 25px;
+}
+
+footer p{
+    font-size: 10px;
 }
 
 
