@@ -5,15 +5,7 @@
     --white:#EEEEEE;
 }
 
-h1{
-    /* text-align: center; */
-    padding-left: 2.5vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    color: var(--white);
-    background-color: var(--grey);
-    font-size: 30px;
-}
+
 
 .main-frise{
     position: relative;

@@ -2,7 +2,6 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
-@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Love+Ya+Like+A+Sister&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
@@ -129,8 +128,9 @@
     background-color: var(--grey);
     width: 94vw;
     margin-left: 3vw;
-    height: 50vh;
-    gap: 20px;
+    height: 48vh;
+    margin-bottom: 2vh;
+    gap: 10px;
     bottom:3vw;
     border-radius: 15px;
     z-index: 2;
@@ -162,7 +162,7 @@
 
 .active a{
     text-decoration: none;
-    color: var(--blue);
+    color: var(--white);
     font-size: 25px;
 }
 
@@ -269,6 +269,28 @@ footer ul{
     transition: 0.1s ease-in-out;
 }
 
+/* pour les pages avec un titre en haut */
 
+.div-h1{
+    width: 100vw;
+    background-color: var(--grey);
+    height: 15vh;
+    gap: 3vw;
+    padding-left: 3vw;
+}
 
+.div-h1 i{
+    font-size: 35px;
+    color: var(--blue);
+}
+
+.div-h1 h1{
+    /* text-align: center; */
+    color: var(--white);
+    font-size: 25px;
+}
+
+.div-h1 a{
+    text-decoration: none;
+}
 

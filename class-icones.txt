@@ -18,3 +18,4 @@ comment : <i class="fi fi-rr-comments"></i>
 fleche gauche : <i class="fi fi-rr-angle-left"></i>
 fleche droite : <i class="fi fi-rr-angle-right"></i> *
 fleche bas moderne : <i class="fi fi-rr-angle-small-down"></i>
+home : <i class="fi fi-rr-home"></i>
