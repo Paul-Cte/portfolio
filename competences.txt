@@ -1,0 +1,26 @@
+Languages
+    Front-End:
+        -> html
+        -> css 
+        -> javascript
+    
+    Back-End:
+        -> php
+        -> java
+        -> c 
+        -> c++
+
+Logiciel:
+    -> VS code
+    -> IntelliJ
+
+
+D'un point de vu social:
+    -> Motivé
+    -> Aime apprendre
+    -> Travail en équipe
+    -> Determiné
+
+
+
+

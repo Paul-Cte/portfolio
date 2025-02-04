@@ -1,0 +1,194 @@
+
+
+
+
+/* Page Accueil */
+
+#accueil main li{
+    list-style-type: none;
+}
+
+#accueil main a{
+    text-decoration: none;
+}
+
+
+
+
+
+#accueil main{
+    gap: 1vh;
+    height: 100vh;
+    background-color: white;
+}
+#accueil h1{
+    color: var(--black);
+    /* text-transform: uppercase; */
+
+}
+#accueil h2{
+    color: var(--grey);
+}
+
+#accueil h3{
+    margin-top: 5vh;
+    color: var(--black);
+    font-size: 15px;
+}
+
+#accueil #photodp{
+    width: 38vw;
+    border-radius: 100%;
+    border: 3px solid var(--black);
+}
+
+#accueil .resaux-accueil{
+    gap: 5vw;
+    margin-top: 2vh;
+}
+
+#accueil .resaux-accueil i{
+    font-size: 25px;
+    color: var(--grey);
+}
+
+#accueil .resaux-accueil i:hover{
+    color: var(--blue);
+}
+
+#accueil .btn-accueil{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#accueil .btn-accueil button{
+    padding: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: 2px solid var(--blue);
+    border-radius: 30px;
+    background-color: var(--black);
+    width: 80vw;
+    font-size: 20px;
+    height: 7vh;
+}
+
+#accueil .btn-accueil button:last-child{
+    border: 2px solid var(--black);
+    background-color: #00ADB5;
+    color: var(--black);
+}
+
+#accueil .btn-accueil button:first-child a{
+    color: var(--white);
+}
+
+main button a{
+    gap: 5px;
+}
+
+.download{
+    gap:3vw;
+}
+
+.download a{
+    color:var(--black);
+}
+
+.btn-fleche-bas{
+    width: 100vw;
+    font-size: 45px;
+    position: absolute;
+    bottom: 10px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Pas de mouvement */
+    }
+    40% {
+        transform: translateY(-10px); /* Déplacement vers le haut */
+    }
+    60% {
+        transform: translateY(-5px); /* Un léger déplacement vers le haut */
+    }
+}
+
+.btn-fleche-bas a{
+    text-decoration: none; 
+}
+
+.btn-fleche-bas li{
+    list-style-type: none; 
+}
+
+.btn-fleche-bas i{
+color: var(--black);
+}
+
+.abt{
+    gap: 5vh;
+    padding-bottom: 5vh;
+    position: relative;
+    margin-bottom: calc(10vh + 15px);
+
+}
+
+
+.abt h2{
+    text-align: center;
+    padding: 5vh;
+}
+
+.abt>div{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    border: 1px solid var(--black);
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5vw;
+    color: var(--black);
+}
+
+
+
+.abt li{
+    list-style-type: none;
+    background-color: var(--black);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.abt a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.abt h2{
+    color: var(--black)!important;
+    padding-bottom: 0px;
+}
+
+.ensavplus{
+    position: absolute;
+    right: 10vw;
+    /* bottom: -10vh; */
+    bottom: calc(-5vh - 15px);
+}
+
+
+
+
+
+
+

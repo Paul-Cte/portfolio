@@ -1,0 +1,147 @@
+:root{
+    --black:#222831;
+    --grey:#393E46;
+    --blue:#00ADB5;
+    --white:#EEEEEE;
+}
+
+
+
+
+h1{
+     /* text-align: center; */
+    padding-left: 2.5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: var(--white);
+    background-color: var(--grey);
+    font-size: 30px;
+}
+
+
+h2{
+    padding: 5vh;
+    text-align: center;
+}
+
+.div-projets{
+    flex-wrap: wrap;
+    gap: 5vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.div-projets img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.div-projets img {
+    transition: 0.5s ease-in-out; /* Ajoute la transition à l'image pour que l'effet soit fluide */
+}
+
+.div-projets h3:hover img,
+.div-projets img:hover {
+    transform: scale(1.1); /* Applique l'agrandissement au survol de l'image ou de son parent */
+}
+
+.div-projets{
+    flex-wrap: wrap;
+    gap: 5vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.div-projets>div{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-projets>div h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 5vh;
+}
+
+.details-not-active{
+    position: fixed;
+    height: calc(100vh - 20vh);
+    width: calc(100vw - 5vh);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--grey);
+    z-index: 2;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px var(--black);
+    opacity: 0;
+    visibility: hidden;
+
+
+}
+
+.details-projets-active{
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    height: 75vh;
+    width: calc(100vw - 3vh);
+    /* margin: 5vh; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--grey);
+    z-index: 3;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px var(--black);
+    overflow: auto;
+    overflow-y: scroll;
+    padding: 3vh;
+}
+
+.details-projets div{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.details-projets h4{
+    text-align: center;
+    font-size: 30px;
+    color: var(--blue);
+}
+
+
+.details-projets p{
+    font-size: 20px;
+    color: var(--blue);
+
+}
+
+
+
+.fi-br-cross{
+    position: sticky;
+    left: 78vw;
+    top: 0vw;
+    font-size: 25px;
+    color: var(--white);
+}
+
+h3{
+    text-align: center;
+}
+
