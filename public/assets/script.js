@@ -20,6 +20,13 @@ btn_menu.addEventListener('click', () => {
         
     } else {
         body.classList.add('bodyactive');
+        btn_close.forEach((btn, index) => {
+            div_details[index].classList.remove('details-projets-active');
+            div_details[index].classList.add('details-not-active');
+            divoverlay.classList.remove('overlay2');
+            body.classList.remove('bodyactive2');
+
+    });
     }
 });
 

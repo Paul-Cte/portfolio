@@ -86,14 +86,14 @@ footer{
     opacity: 1;
     visibility: visible;
     position: fixed;
-    height: 75vh;
-    width: calc(100vw - 3vh);
+    height: calc(100vh - 4vw);
+    width: 96vw;
     /* margin: 5vh; */
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: var(--grey);
-    z-index: 3;
+    z-index: 15;
     border-radius: 15px;
     box-shadow: 0px 0px 10px var(--black);
     overflow: auto;

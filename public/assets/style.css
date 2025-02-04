@@ -126,15 +126,15 @@
     transform: translateY(150%);
     position: fixed;
     background-color: var(--grey);
-    width: 90vw;
-    margin-left: 5vw;
-    height: 48vh;
-    margin-bottom: 2vh;
+    width: 96vw;
+    margin-left: 2vw;
+    height: 50vh;
     gap: 10px;
-    bottom:3vw;
+    bottom:2vw;
     border-radius: 15px;
-    z-index: 2;
+    z-index: 20;
     transition: transform 0.3s ease-in-out; 
+    padding-bottom: 7vh;
 }
 
 
@@ -166,7 +166,7 @@
     background: rgba(0, 0, 0, 0.7); 
     opacity: 1;
     pointer-events: none; 
-    z-index: 1;
+    z-index: 10;
 }
 
 .overlay2 {
@@ -178,7 +178,7 @@
     background: rgba(0, 0, 0, 0.8); 
     opacity: 1;
     pointer-events: none; 
-    z-index: 1;
+    z-index: 10;
 }
 
 #accueil .fond-burger{
@@ -230,7 +230,7 @@ footer ul{
     position:fixed;
     right: 7px;
     bottom: 7px;
-    z-index: 2;
+    z-index: 17;
 }
 
 .fond-contact a{
