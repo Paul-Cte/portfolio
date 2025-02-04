@@ -86,12 +86,12 @@ footer{
     opacity: 1;
     visibility: visible;
     position: fixed;
-    height: 85vh;
+    height: 94vh;
     width: 96vw;
-    /* margin: 5vh; */
+    /* margin-bottom: 5vh; */
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-43%);
+    transform: translate(-50%,-48%);
     background-color: var(--grey);
     z-index: 15;
     border-radius: 15px;
@@ -99,6 +99,7 @@ footer{
     overflow: auto;
     overflow-y: scroll;
     padding: 3vh;
+    overflow: hidden;
 }
 
 .details-projets div{
