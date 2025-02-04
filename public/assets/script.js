@@ -17,6 +17,7 @@ btn_menu.addEventListener('click', () => {
 
     if (isOpen) {
         body.classList.remove('bodyactive');
+        
     } else {
         body.classList.add('bodyactive');
     }
