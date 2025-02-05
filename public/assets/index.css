@@ -1,108 +1,95 @@
-
-
-
-
 /* Page Accueil */
 
-#accueil main li{
+#accueil main li {
     list-style-type: none;
 }
 
-#accueil main a{
+#accueil main a {
     text-decoration: none;
 }
 
-
-
-
-
-#accueil main{
+#accueil main {
     gap: 1vh;
     height: 100vh;
     background-color: white;
     padding-bottom: 5vh;
 }
-#accueil h1{
-    color: var(--black);
-    /* text-transform: uppercase; */
 
+#accueil h1 {
+    color: var(--black);
 }
-#accueil h2{
+
+#accueil h2 {
     color: var(--grey);
 }
 
-#accueil h3{
+#accueil h3 {
     margin-top: 5vh;
     color: var(--black);
     font-size: 15px;
 }
 
-#accueil #photodp{
+#accueil #photodp {
     width: 38vw;
     border-radius: 100%;
     border: 3px solid var(--black);
 }
 
-#accueil .resaux-accueil{
+#accueil .resaux-accueil {
     gap: 5vw;
     margin-top: 2vh;
 }
 
-#accueil .resaux-accueil i{
+#accueil .resaux-accueil i {
     font-size: 25px;
     color: var(--grey);
 }
 
-#accueil .resaux-accueil i:hover{
+#accueil .resaux-accueil i:hover {
     color: var(--blue);
 }
 
-#accueil .btn-accueil{
+#accueil .btn-accueil {
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
-#accueil .btn-accueil button{
+#accueil .btn-accueil button {
     padding: 10px;
-    padding-top: 13px;
-    padding-bottom: 13px;
     border: 2px solid var(--blue);
     border-radius: 30px;
     background-color: var(--black);
     width: 80vw;
     font-size: 20px;
-    height: 7vh;
+    height: max-content;
 }
 
-#accueil .btn-accueil button:last-child{
+#accueil .btn-accueil button:last-child {
     border: 2px solid var(--black);
     background-color: #00ADB5;
     color: var(--black);
 }
 
-#accueil .btn-accueil button:first-child a{
+#accueil .btn-accueil button:first-child a {
     color: var(--white);
 }
 
-main button a{
-    gap: 5px;
+.download {
+    gap: 3vw;
 }
 
-.download{
-    gap:3vw;
+.download a {
+    color: var(--black);
 }
 
-.download a{
-    color:var(--black);
-}
-
-.btn-fleche-bas{
+.btn-fleche-bas {
     width: 100vw;
     font-size: 45px;
     position: absolute;
-    bottom: 10px;
+    bottom: -1vh;
     animation: bounce 1s infinite;
 }
 
@@ -118,40 +105,38 @@ main button a{
     }
 }
 
-.btn-fleche-bas a{
+.btn-fleche-bas a {
     text-decoration: none; 
 }
 
-.btn-fleche-bas li{
+.btn-fleche-bas li {
     list-style-type: none; 
 }
 
-.btn-fleche-bas i{
-color: var(--black);
+.btn-fleche-bas i {
+    color: var(--black);
 }
 
-.abt{
+.abt {
     gap: 5vh;
     padding-bottom: 5vh;
     position: relative;
     margin-bottom: calc(10vh + 15px);
-
 }
 
-
-.abt h2{
+.abt h2 {
     text-align: center;
     padding: 5vh;
 }
 
-.abt>div{
+.abt>div {
     width: 80vw;
     height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     text-align: center;
     border: 1px solid var(--black);
     font-size: 20px;
@@ -160,41 +145,37 @@ color: var(--black);
     color: var(--black);
 }
 
-
-
-.abt li{
+.abt li {
     list-style-type: none;
     background-color: var(--black);
     padding: 15px;
     border-radius: 15px;
 }
 
-.abt a{
+.abt a {
     text-decoration: none;
     color: var(--white);
     font-size: 20px;
 }
 
-.abt h2{
+.abt h2 {
     color: var(--black)!important;
     padding-bottom: 0px;
 }
 
-.ensavplus{
+.ensavplus {
     position: absolute;
     right: 10vw;
-    /* bottom: -10vh; */
     bottom: calc(-5vh - 15px);
 }
 
-
-p{
+p {
     font-size: 25px;
 }
 
-
-
-
-
-
+@media (max-height: 550px) {
+    .btn-fleche-bas {
+        display: none;
+    }
+}
 
