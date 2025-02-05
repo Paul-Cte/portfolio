@@ -129,7 +129,7 @@
     width: 96vw;
     margin-left: 2vw;
     height: 50vh;
-    gap: 10px;
+    gap: 1vh;
     bottom:2vw;
     border-radius: 15px;
     z-index: 20;
@@ -147,12 +147,13 @@
 
 .liste-menu li{
     list-style-type: none;
+    text-align: center;
 }
 
 .liste-menu a{
     text-decoration: none;
     color: var(--white);
-    font-size: 24px;
+    font-size: 3.3vh;
 }
 
 /* pour l'effet de flou  */
