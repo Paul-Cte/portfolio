@@ -39,18 +39,41 @@ if(close_by_clic.length>0){
 
 
 
-const details = document.getElementsByTagName('details')[0];
-const summary = document.getElementsByTagName('summary')[0];
+document.addEventListener("DOMContentLoaded", () => {
+  const details = document.getElementsByTagName('details')[0];
+  const summary = document.getElementsByTagName('summary')[0];
 
-summary.addEventListener('click', () => {
-    setTimeout(() => { // Timeout pour attendre la mise à jour de `details.open`
-      if (details.open) {
-        summary.textContent = "Fermer";
-      } else {
-        summary.textContent = "Plus de détails";
-      }
-    }, 0);
+  if (details && summary) {
+      summary.addEventListener('click', () => {
+          setTimeout(() => { // Timeout pour attendre la mise à jour de `details.open`
+              summary.textContent = details.open ? "Fermer" : "Plus de détails";
+          }, 0);
+      });
+  } else {
+      console.error("Les éléments <details> ou <summary> sont introuvables.");
+  }
+});
+
+
+
+document.querySelectorAll(".shareButton").forEach(button => {
+  button.addEventListener("click", () => {
+      const discordUrl = "https://discordapp.com/users/776852409704120361";
+
+      // Copier le lien dans le presse-papiers
+      navigator.clipboard.writeText(discordUrl)
+          .then(() => {
+              console.log("Lien copié !");
+              alert("Le lien a été copié avec succès dans le presse-papiers !");
+          })
+          .catch(err => {
+              console.error("Erreur lors de la copie : ", err);
+          });
   });
+});
+
+
+
 
 
 

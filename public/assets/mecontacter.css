@@ -1,0 +1,101 @@
+:root{
+    --black:#222831;
+    --grey:#393E46;
+    --blue:#00ADB5;
+    --white:#EEEEEE;
+}
+
+h2{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+
+main{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+}
+
+main p{
+    font-size: 15px;
+}
+
+.div-reseaux{
+    width: 100%;
+    gap: 2vh;
+    padding-bottom: 2vh;
+}
+
+.div-reseaux li{
+    list-style-type: none;
+}
+
+.div-reseaux a{
+    text-decoration: none;
+    display:contents;
+}
+
+
+main img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+
+.div-reseaux>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    border: 1px solid black;
+    padding: 1vh;
+    border-radius: 15px;
+}
+
+.div-reseaux>div:first-of-type{
+    margin-top: 2vh;
+}
+
+.div-reseaux>div a{
+    color: var(--black);
+}
+h3,h4{
+    font-size: 20px;
+}
+
+figure{
+    position: relative;
+}
+
+figure img{
+    width: 60px;
+    height: 60px;
+}
+
+figcaption{
+
+    font-size: 20px;
+
+}
+
+.mail{
+    height: 13vh;
+    width: 13vh;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.shareButton{
+    width: 32px;
+    height: 32px;
+}
+
