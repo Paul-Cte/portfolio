@@ -247,7 +247,7 @@ footer ul{
     width: 100%;
     background-color: var(--black);
     height: 15vh;
-    gap: 3vw;
+    /* gap: 13vw; */
     padding-left: 3vw;
     position: relative;
 }
@@ -258,9 +258,12 @@ footer ul{
 }
 
 .div-h1 h1{
-    /* text-align: center; */
+    text-align: center;
     color: var(--white);
     font-size: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .div-h1 a{
