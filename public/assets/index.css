@@ -148,7 +148,7 @@ p {
     overflow: hidden;
     box-shadow: 0px 0px 10px var(--blue);
     border-radius: 10px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     height: 50vw;
@@ -159,8 +159,6 @@ p {
 .div-projets>div h3 {
     position: absolute;
     bottom:0px;
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     font-size: 25px;
     color: var(--black);
     background: rgba(255, 255, 255, 0.8);
