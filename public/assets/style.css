@@ -106,14 +106,6 @@
     height: 100%;
 }
 
-.bodyactive2{
-    overflow: hidden;
-    height: 100%;
-}
-
-
-
-
 /* le menu déroulant */
 .btn-burger{
     position:fixed;
@@ -164,23 +156,12 @@
     transform: translate(-50%,-50%);
     width: 100vw;
     height:100vh;
-    background: rgba(148, 148, 148, 0.1); 
+    background: rgba(57, 62, 70, 0.5); 
     opacity: 1;
     pointer-events: none; 
     z-index: 10;
 }
 
-.overlay2 {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height:100vh;
-    background: rgba(0, 0, 0, 0.8); 
-    opacity: 1;
-    pointer-events: none; 
-    z-index: 10;
-}
 
 #accueil .fond-burger{
     margin: 10px;
@@ -188,7 +169,7 @@
     border: 1px solid var(--black);
     border-radius: 100%;
     background-color: var(--blue);
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px var(--blue);
 }
 
 #accueil .img-hamburger{
