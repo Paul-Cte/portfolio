@@ -1,3 +1,7 @@
+html, body {
+    min-height: 100vh; /* 100% de la hauteur de la fenêtre */
+  }
+
 
 :root{
     --black:#222831;
@@ -94,6 +98,8 @@ figcaption{
 .mail{
     height: 13vh;
     width: 13vh;
+    min-height: 92px;
+    min-width: 92px;
     margin: auto;
     border: 1px solid black;
     border-radius: 15px;

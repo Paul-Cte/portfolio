@@ -110,7 +110,7 @@
 .btn-burger{
     position:fixed;
     right: 7px;
-    top: 3.25vh;
+    top: 19px;
     /* transform: translateY(-7.5vh); */
     z-index: 2;
 }
@@ -165,8 +165,8 @@
 
 
 #accueil .fond-burger{
-    margin: 10px;
-    padding: 10px;
+    margin: 7px;
+    padding: 7px;
     border: 1px solid var(--black);
     border-radius: 100%;
     background-color: var(--blue);
@@ -246,7 +246,8 @@ footer ul{
 .div-h1{
     width: 100%;
     background-color: var(--black);
-    height: 15vh;
+    height: 100px;
+    min-height: 100px;
     /* gap: 13vw; */
     padding-left: 3vw;
     position: relative;
