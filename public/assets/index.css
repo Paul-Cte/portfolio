@@ -31,13 +31,14 @@ h1, h2, h3 {
 }
 
 #accueil #photodp {
-    width: 38vw;
+    width: 45vw;
+    max-width: 150px;
     border-radius: 100%;
     box-shadow: 0px 0px 15px var(--white);
 }
 
 #accueil .resaux-accueil {
-    gap: 5vw;
+    gap: 20px;
     margin-top: 2vh;
 }
 
@@ -62,6 +63,7 @@ h1, h2, h3 {
     padding: 10px;
     border-radius: 30px;
     width: 80vw;
+    max-width: 450px;
     font-size: 20px;
     border: 2px solid var(--blue);
     background-color: var(--grey);
@@ -86,10 +88,10 @@ h1, h2, h3 {
 }
 
 .btn-fleche-bas {
-    width: 100vw;
+    width: 100%;
     font-size: 45px;
     position: absolute;
-    bottom: -1vh;
+    bottom: 0vh;
     animation: bounce 1s infinite;
 }
 
@@ -146,10 +148,12 @@ p {
     overflow: hidden;
     box-shadow: 0px 0px 10px var(--blue);
     border-radius: 10px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    height: 23vh;
+    height: 50vw;
+    max-width: 500px;
+    max-height: 312.5px;
 }
 
 .div-projets>div h3 {
