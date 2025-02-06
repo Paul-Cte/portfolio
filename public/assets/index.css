@@ -15,6 +15,9 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
+.btn-fleche-bas i{
+    color: var(--white)!important;
+}
 #accueil main {
     gap: 1vh;
     height: 100vh;

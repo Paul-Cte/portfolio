@@ -178,7 +178,7 @@
 
 
 footer{
-    background-color: var(--grey);
+    background-color:var(--grey);
     padding: 3vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
