@@ -53,7 +53,7 @@
 
 /* la div du paragraphe */
 .parcours-div-p{
-    width: 100vw;
+    width: 100%;
     padding: 2vh;
     /* margin: auto; */
     /* text-align: center; */

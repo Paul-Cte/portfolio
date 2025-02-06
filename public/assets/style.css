@@ -243,7 +243,7 @@ footer ul{
 /* pour les pages avec un titre en haut */
 
 .div-h1{
-    width: 100vw;
+    width: 100%;
     background-color: var(--black);
     height: 15vh;
     gap: 3vw;
