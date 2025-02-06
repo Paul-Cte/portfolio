@@ -64,7 +64,6 @@ document.querySelectorAll(".shareButton").forEach(button => {
       navigator.clipboard.writeText(discordUrl)
           .then(() => {
               console.log("Lien copié !");
-              alert("Le lien a été copié avec succès dans le presse-papiers !");
           })
           .catch(err => {
               console.error("Erreur lors de la copie : ", err);

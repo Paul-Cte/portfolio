@@ -3,7 +3,7 @@
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Love+Ya+Like+A+Sister&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 *{
     box-sizing: border-box;
     margin:0px;
@@ -110,7 +110,8 @@
 .btn-burger{
     position:fixed;
     right: 7px;
-    top: 3vh;
+    top: 3.25vh;
+    /* transform: translateY(-7.5vh); */
     z-index: 2;
 }
 
@@ -248,6 +249,7 @@ footer ul{
     height: 15vh;
     gap: 3vw;
     padding-left: 3vw;
+    position: relative;
 }
 
 .div-h1 i{

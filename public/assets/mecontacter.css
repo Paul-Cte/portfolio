@@ -1,3 +1,4 @@
+
 :root{
     --black:#222831;
     --grey:#393E46;
@@ -45,6 +46,7 @@ main img{
     width: 50px;
     height: 50px;
     display: block;
+    border-radius: 15px;
 }
 
 
@@ -66,6 +68,9 @@ main img{
 
 .div-reseaux>div a{
     color: var(--black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 h3,h4{
     font-size: 20px;
@@ -82,7 +87,7 @@ figure img{
 
 figcaption{
 
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
@@ -94,10 +99,26 @@ figcaption{
     border-radius: 15px;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    
 }
+
+
+
 
 .shareButton{
     width: 32px;
     height: 32px;
+    border-radius: 0px;
 }
 
+
+
+
+
+.curseur{
+    width: 25px;
+    height: 25px;
+    left: 65%;
+    top: 5px;
+    margin-top: 2.5vh;
+}
