@@ -164,7 +164,7 @@
     transform: translate(-50%,-50%);
     width: 100vw;
     height:100vh;
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(148, 148, 148, 0.1); 
     opacity: 1;
     pointer-events: none; 
     z-index: 10;
@@ -197,7 +197,7 @@
 
 
 footer{
-    background-color: var(--black);
+    background-color: var(--grey);
     padding: 3vw;
     padding-top: 5vh;
     padding-bottom: 5vh;

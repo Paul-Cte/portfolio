@@ -1,5 +1,9 @@
 /* Page Accueil */
 
+body{
+    background-color: var(--black);
+}
+
 #accueil main li {
     list-style-type: none;
 }
@@ -11,28 +15,30 @@
 #accueil main {
     gap: 1vh;
     height: 100vh;
-    background-color: white;
+    /* background-color: white; */
     padding-bottom: 5vh;
 }
 
 #accueil h1 {
-    color: var(--black);
+    color: var(--white);
 }
 
 #accueil h2 {
-    color: var(--grey);
+    color: var(--white);
+    text-shadow: var(--white) 0px 0 0px;
 }
 
 #accueil h3 {
     margin-top: 5vh;
-    color: var(--black);
+    color: var(--white);
     font-size: 15px;
 }
 
 #accueil #photodp {
     width: 38vw;
     border-radius: 100%;
-    border: 3px solid var(--black);
+    /* border: 3px solid var(--black); */
+    box-shadow: 0px 0px 15px var(--white);
 }
 
 #accueil .resaux-accueil {
@@ -42,7 +48,7 @@
 
 #accueil .resaux-accueil i {
     font-size: 25px;
-    color: var(--grey);
+    color: var(--white);
 }
 
 #accueil .resaux-accueil i:hover {
@@ -61,14 +67,14 @@
     padding: 10px;
     border: 2px solid var(--blue);
     border-radius: 30px;
-    background-color: var(--black);
+    background-color: var(--grey);
     width: 80vw;
     font-size: 20px;
     height: max-content;
 }
 
 #accueil .btn-accueil button:last-child {
-    border: 2px solid var(--black);
+    border: 2px solid var(--grey);
     background-color: #00ADB5;
     color: var(--black);
 }
@@ -114,7 +120,7 @@
 }
 
 .btn-fleche-bas i {
-    color: var(--black);
+    color: var(--white);
 }
 
 .abt {
@@ -139,27 +145,29 @@
     align-items: center;
     text-align: center;
     border: 1px solid var(--black);
+    background-color: var(--black);
     font-size: 20px;
     border-radius: 15px;
     padding: 5vw;
-    color: var(--black);
+    color: var(--white);
+    box-shadow: 0px 0px 10px var(--blue);
 }
 
 .abt li {
     list-style-type: none;
-    background-color: var(--black);
+    background-color: var(--white);
     padding: 15px;
     border-radius: 15px;
 }
 
 .abt a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--grey);
     font-size: 20px;
 }
 
 .abt h2 {
-    color: var(--black)!important;
+    color: var(--white)!important;
     padding-bottom: 0px;
 }
 
