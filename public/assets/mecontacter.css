@@ -13,6 +13,7 @@ html, body {
 h2{
     font-size: 35px;
     text-transform: capitalize;
+    color: var(--white);
 }
 
 
@@ -20,14 +21,16 @@ main{
     min-height: 85vh;
     display: flex;
     flex-direction: column;
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right:10vw ;
     padding-top: 2vh;
+    background-color: var(--black);
 }
 
 main p{
     font-size: 15px;
+    color: var(--white);
 }
 
 .div-reseaux{
@@ -64,6 +67,8 @@ main img{
     border: 1px solid black;
     padding: 0.5vh;
     border-radius: 15px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 8px var(--blue);
 }
 
 .div-reseaux>div:first-of-type{
@@ -75,9 +80,21 @@ main img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: var(--black);
 }
 h3,h4{
     font-size: 20px;
+}
+
+h3{
+    color: var(--white);
+}
+
+#discord{
+    padding-left: 0%;
+}
+h4{
+    padding-left: 25px;
 }
 
 figure{
@@ -90,14 +107,14 @@ figure img{
 }
 
 figcaption{
-
     font-size: 15px;
 
 }
 
+
 .mail{
-    height: 13vh;
-    width: 13vh;
+    /* height: 13vh; */
+    /* width: 13vh; */
     min-height: 92px;
     min-width: 92px;
     margin: auto;
@@ -105,9 +122,16 @@ figcaption{
     border-radius: 15px;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px var(--blue);
     
 }
 
+.mail a{
+    text-decoration: none;
+    color: var(--black);
+    padding: 1vh;
+}
 
 
 
