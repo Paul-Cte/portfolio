@@ -3,6 +3,7 @@ const menu = document.getElementsByClassName('liste-menu')[0];
 const divoverlay = document.getElementsByClassName('divoverlay')[0];
 const body = document.getElementsByTagName('body')[0];
 const close_by_clic = document.getElementsByClassName('close-by-clic');
+img_btn_burger = document.getElementsByClassName('img-hamburger')[0];
 
 
 
@@ -14,9 +15,11 @@ btn_menu.addEventListener('click', () => {
 
     if (isOpen) {
         body.classList.remove('bodyactive');
+        img_btn_burger.src = "../image/menu-burger.png"
         
     } else {
         body.classList.add('bodyactive');
+        img_btn_burger.src = "../image/fermer.png"
     }
 });
 

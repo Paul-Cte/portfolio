@@ -112,19 +112,19 @@
     right: 7px;
     top: 13px;
     /* transform: translateY(-7.5vh); */
-    z-index: 2;
+    z-index: 60;
 }
 
 .liste-menu{
-    transform: translateY(150%);
+    transform: translateX(200vw);
     position: fixed;
     background-color: var(--grey);
-    width: 96vw;
-    margin-left: 2vw;
-    height: 50vh;
+    width: 80vw;
+    margin-left: 20w;
+    height: 100vh;
     gap: 1vh;
-    bottom:2vw;
-    border-radius: 15px;
+    /* bottom:2vw; */
+    /* border-radius: 15px; */
     z-index: 20;
     transition: transform 0.3s ease-in-out; 
     /* padding-bottom: 5vh; */
@@ -133,7 +133,7 @@
 
 
 .active{
-    transform: translateY(0%);
+    transform: translateX(20vw);
 }
 
 
@@ -166,7 +166,7 @@
 
 #accueil .fond-burger{
     margin: 7px;
-    padding: 13px;
+    padding: 11.5px;
     border: 1px solid var(--black);
     border-radius: 100%;
     background-color: var(--blue);
@@ -174,7 +174,8 @@
 }
 
 #accueil .img-hamburger{
-    font-size: 35px;
+    /* font-size: 35px; */
+    height: 35px;
 }
 
 
