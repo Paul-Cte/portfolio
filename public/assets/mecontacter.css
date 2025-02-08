@@ -117,18 +117,18 @@ figcaption{
 
 
 .mail{
-    /* height: 13vh; */
-    /* width: 13vh; */
     min-height: 92px;
     min-width: 92px;
-    margin: auto;
     border: 1px solid black;
     border-radius: 15px;
     margin-top: 2vh;
     margin-bottom: 2vh;
     background-color: var(--white);
     box-shadow: 0px 0px 8px var(--blue);
-    
+}
+
+.deux-p{
+    gap: 7vw;
 }
 
 .mail a{
