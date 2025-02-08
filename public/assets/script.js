@@ -27,6 +27,8 @@ const closeMenu = () => {
     menu.classList.remove('active');
     divoverlay.classList.remove('overlay');
     body.classList.remove('bodyactive');
+    img_btn_burger.src = "../image/menu-burger.png"
+
 };
 
 
