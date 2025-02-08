@@ -123,7 +123,7 @@ figcaption{
     margin-top: 2vh;
     margin-bottom: 2vh;
     background-color: var(--white);
-    box-shadow: 0px 0px 10px var(--blue);
+    box-shadow: 0px 0px 8px var(--blue);
     
 }
 
