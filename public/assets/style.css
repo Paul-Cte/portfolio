@@ -251,6 +251,7 @@ footer ul{
     /* gap: 13vw; */
     padding-left: 3vw;
     position: relative;
+    border-bottom: 1px solid var(--grey);
 }
 
 .div-h1 i{
