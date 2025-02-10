@@ -30,7 +30,7 @@ h1, h2, h3 {
 #accueil main {
     gap: 1vh;
     min-height: calc(100vh - 90px);
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
     margin-top: 110px;
 }
 
