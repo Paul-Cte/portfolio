@@ -1,35 +1,35 @@
 const btn_menu = document.getElementsByClassName('btn-burger')[0];
 const menu = document.getElementsByClassName('liste-menu')[0];
-const divoverlay = document.getElementsByClassName('divoverlay')[0];
 const body = document.getElementsByTagName('body')[0];
 const close_by_clic = document.getElementsByClassName('close-by-clic');
 img_btn_burger = document.getElementsByClassName('img-hamburger')[0];
+const btn_fermture_menu = document.getElementById('btn_fermeture');
 
 
 
-btn_menu.addEventListener('click', () => {
+img_btn_burger.addEventListener('click', () => {
     const isOpen = menu.classList.contains('active'); // Vérifie si le menu est ouvert
-
+    
     menu.classList.toggle('active');
-    divoverlay.classList.toggle('overlay');
 
     if (isOpen) {
         body.classList.remove('bodyactive');
-        img_btn_burger.src = "../image/menu-burger.png"
         
     } else {
         body.classList.add('bodyactive');
-        img_btn_burger.src = "../image/fermer.png"
+        
     }
 });
 
 const closeMenu = () => {
     menu.classList.remove('active');
-    divoverlay.classList.remove('overlay');
     body.classList.remove('bodyactive');
     img_btn_burger.src = "../image/menu-burger.png"
 
 };
+
+btn_fermture_menu.addEventListener('click',closeMenu)
+
 
 
 if(close_by_clic.length>0){

@@ -9,30 +9,34 @@
 </head>
 <body id="accueil" class="">
 
-    <div class="btn-burger">
-        <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
-    </div>
 
-    <div>
-        <ul class="liste-menu flex-column items-center justify-center">
+
+    <div class="liste-menu flex-row">
+        <div class="overlay close-by-clic">
+        </div>
+        <ul class="flex-column items-center justify-center">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="monparcours.html">Mon parcours</a></li>
             <li><a href="mecontacter.html">Me contacter</a></li>
+            <img id="btn_fermeture" src="../image/fermer.png" alt="btn_fermeture">
         </ul>
     </div>
 
-    <div class="divoverlay"></div>
+
     <div class="btn-contact-me">
         <li class="fond-contact flex-row items-center justify-center"><a href="mecontacter.html"><img class="img-contact" src="../image/img-contact.png" alt="me contacter"></a></li>
     </div>
 
-    <div class="flex-row items-center div-h1 close-by-clic">
+    <div class="flex-row items-center div-h1">
             <a href="../index.html"><i class="fi fi-rr-home"></i></a>
-            <h1 class="close-by-clic">Mon parcours</h1>
+            <h1>Mon parcours</h1>
+            <div class="btn-burger">
+                <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
+            </div>
     </div>
 
 
-    <main class="close-by-clic flex-column main-frise">
+    <main class="flex-column main-frise">
 
         <div class="trait-milieu"></div>
         <div class="flex-column div-frise">
@@ -65,7 +69,7 @@
             <p>BUT informatique deuxième année a Grenoble - Parcours A</p>
         </div>
     </main>
-    <div class="parcours-div-p close-by-clic">
+    <div class="parcours-div-p">
         <details>
             <summary>Plus de détails</summary>
             <p>
@@ -87,7 +91,6 @@
         </ul>
         <ul>
             <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
-            <li><a href="mecontacter.html">Me contacter</a></li>
             <li><a href="mentionslegales.html">Mentions légales</a></li>
         </ul>
     </footer>

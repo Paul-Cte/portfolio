@@ -7,27 +7,35 @@
     <link rel="stylesheet" href="public/assets/style.css">
     <link rel="stylesheet" href="public/assets/index.css">
 </head>
-<body id="accueil" class="bodynotactive">
+<body id="accueil" class="">
 
-    <div class="btn-burger">
-        <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="image/menu-burger.png" alt="menu burger"></button>
+
+    <div class="flex-row items-center div-h1">
+        <a  href="../index.html"><i class="fi fi-rr-home"></i></a>
+        <h1>Home</h1>
+        <div class="btn-burger">
+            <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="image/menu-burger.png" alt="menu burger"></button>
+        </div>
     </div>
-    <div class="flex-row justify-center btn-fleche-bas close-by-clic">
+    <div class="flex-row justify-center btn-fleche-bas">
         <li><a href="#goto"><i class="fi fi-rr-angle-small-down"></i></a></li>
     </div>
 
-    <div>
-        <ul class="liste-menu flex-column items-center justify-center">
+
+    <div class="liste-menu flex-row">
+        <div class="overlay close-by-clic">
+        </div>
+        <ul class="flex-column items-center justify-center">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="view/monparcours.html">Mon parcours</a></li>
             <li><a href="view/mecontacter.html">Me contacter</a></li>
+            <img id="btn_fermeture" src="image/fermer.png" alt="btn_fermeture">
         </ul>
     </div>
 
-    <div class="divoverlay"></div>
 
 
-    <main class="flex-column justify-center items-center close-by-clic">
+    <main class="flex-column justify-center items-center">
         <img id="photodp" src="image/pdp2.jpg" alt="photo de profile">
         <h3>Hi, I'm</h3>
         <h1>PAUL COMTE</h1>
@@ -43,8 +51,8 @@
     </main>
 
 
-<h2 class="close-by-clic h2-projets" id="goto">Projets académiques</h2>
-<div class="flex-row items-center justify-center div-projets close-by-clic">
+<h2 class=" h2-projets" id="goto">Projets académiques</h2>
+<div class="flex-row items-center justify-center div-projets">
     <div class="div-projets-img">
         <img src="image/classification.png" alt="projet_java">
         <h3>Java</h3>
@@ -60,8 +68,8 @@
 
 </div>
 
-<h2 class="close-by-clic h2-projets">Projets personnels</h2>
-<div class="flex-row items-center justify-center div-projets close-by-clic">
+<h2 class="h2-projets">Projets personnels</h2>
+<div class="flex-row items-center justify-center div-projets">
     <div class="div-projets-img">
         <img src="image/resto.png" alt="projet_siteRestaurant">
         <h3>Site Restaurant</h3>
@@ -77,15 +85,14 @@
 </div>
 
 
-    <footer class="flex-row justify-center close-by-clic">
+    <footer class="flex-row justify-center">
         <ul class="flex-column">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="view/monparcours.html">Mon parcours</a></li>
-            <li><a href="view/activitesetloisirs.html">Autres activités et loisirs</a></li>
+            <li><a href="view/mecontacter.html">Me contacter</a></li>
         </ul>
         <ul>
             <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
-            <li><a href="view/mecontacter.html">Me contacter</a></li>
             <li><a href="view/mentionslegales.html">Mentions légales</a></li>
         </ul>
     </footer>
