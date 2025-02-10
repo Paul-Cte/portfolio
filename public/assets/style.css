@@ -256,7 +256,6 @@ footer ul{
     min-height: 100px;
     padding: 3vw;
     position: fixed;
-    border-bottom: 1px solid var(--grey);
     top: 0%;
     z-index: 2;
     justify-content: space-between;

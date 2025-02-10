@@ -97,29 +97,6 @@ h1, h2, h3 {
     color: var(--black);
 }
 
-.btn-fleche-bas {
-    width: 100%;
-    font-size: 45px;
-    position: absolute;
-    bottom: 0vh;
-    animation: bounce 1s infinite;
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-10px); }
-    60% { transform: translateY(-5px); }
-}
-
-.btn-fleche-bas i {
-    color: var(--white);
-}
-
-.btn-fleche-bas i:hover {
-    text-shadow: var(--white) 0px 0 15px;
-    color: var(--white);
-
-}
 
 
 
