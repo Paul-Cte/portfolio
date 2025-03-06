@@ -25,7 +25,6 @@ const closeMenu = () => {
     menu.classList.remove('active');
     body.classList.remove('bodyactive');
     img_btn_burger.src = "../image/menu-burger.png"
-
 };
 
 btn_fermture_menu.addEventListener('click',closeMenu)

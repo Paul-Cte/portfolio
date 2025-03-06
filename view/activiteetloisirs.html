@@ -3,49 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A&L</title>
+    <title>Mon parcours</title>
     <link rel="stylesheet" href="../public/assets/style.css">
-    <link rel="stylesheet" href="../public/assets/activiteetloisirs.css">
+    <link rel="stylesheet" href="../public/assets/monparcours.css">
 </head>
-<body>
-    <div class="flex-row items-center div-h1">
-        <a  href="../index.html"><i class="fi fi-rr-home"></i></a>
-        <h1>Home</h1>
-        <div class="btn-burger">
-            <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
-        </div>
-    </div>
+<body id="accueil" class="">
+
+
 
     <div class="liste-menu flex-row">
-            <div class="overlay close-by-clic">
-            </div>
-            <ul class="flex-column items-center justify-center">
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="monparcours.html">Mon parcours</a></li>
-                <li><a href="mecontacter.html">Me contacter</a></li>
-                <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
-                <img id="btn_fermeture" src="../image/fermer.png" alt="btn_fermeture">
-            </ul>
+        <div class="overlay close-by-clic">
         </div>
-
-        <main>
-            
-        </main>
-
-
-
-    
-
-    <footer class="flex-row justify-center">
-        <ul class="flex-column">
+        <ul class="flex-column items-center justify-center">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="monparcours.html">Mon parcours</a></li>
             <li><a href="mecontacter.html">Me contacter</a></li>
+            <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
+            <img id="btn_fermeture" src="../image/fermer.png" alt="btn_fermeture">
+        </ul>
+    </div>
+
+
+    <div class="btn-contact-me">
+        <li class="fond-contact flex-row items-center justify-center"><a href="mecontacter.html"><img class="img-contact" src="../image/img-contact.png" alt="me contacter"></a></li>
+    </div>
+
+    <div class="flex-row items-center div-h1">
+            <a href="../index.html"><i class="fi fi-rr-home"></i></a>
+            <h1>Activités et loisirs</h1>
+            <div class="btn-burger">
+                <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
+            </div>
+    </div>
+
+
+    <main class="flex-column main-frise"></main>
+
+
+
+
+
+    <footer class="flex-row justify-center">
+        <ul class="flex-column">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="monparcours.html">Mon parcours</a></li>
+            <li><a href="mecontacter.html">Me contacter</a></li>
+            <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
         </ul>
         <ul>
             <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
             <li><a href="mentionslegales.html">Mentions légales</a></li>
         </ul>
     </footer>
+    
+    <script type="text/javascript" src="../public/assets/script.js"></script>
 </body>
 </html>
