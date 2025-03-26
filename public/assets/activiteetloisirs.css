@@ -8,3 +8,52 @@
 body{
     background-color: var(--black);
 }
+
+main{
+    margin-top: calc(100px + 2vh);
+    margin-bottom: 5vh;
+}
+
+/* info : main 2 represente la div suivant le main car c'était plus rapide copier coller en l'appellant comme ça */
+.main2{
+    margin-bottom: 5vh;
+}
+
+main h2{
+    text-align: center;
+    margin-bottom: 5vh;
+    color: var(--white);
+}
+
+.main2 h2{
+    text-align: center;
+    margin-bottom: 5vh;
+    color: var(--white);
+}
+
+.coureurbleu{
+    width: 45vw;
+}
+
+/* div du main */
+.athle{
+    background-color: var(--grey);
+    padding: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px var(--blue);
+}
+
+.main2 .athle{
+    gap: 30px;
+}
+main p{
+    font-size: 20px;
+    color: var(--white);
+}
+
+.main2 p{
+    font-size: 20px;
+    color: var(--white);
+}
