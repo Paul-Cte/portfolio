@@ -137,7 +137,7 @@ p {
 .div-projets>div {
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 0px 10px var(--blue);
+    box-shadow: 0px 0px 5px var(--white);
     border-radius: 10px;
     width: 100%;
     display: flex;
