@@ -1,3 +1,10 @@
+:root{
+    --black:#222831;
+    --grey:#393E46;
+    --blue:#00ADB5;
+    --white:#EEEEEE;
+}
+
 .div-h1{
     justify-content:flex-start;
 }
@@ -12,4 +19,160 @@
 .div-h1 i{
     font-size: 35px;
     color: var(--blue);
+}
+
+
+main{
+    margin-top: 100px;
+    padding: 5vh;
+    background-color: var(--black);
+}
+
+
+main h2{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: var(--white);
+}
+
+main img{
+    width: 30px;
+}
+
+main p{
+    color: var(--white);
+}
+
+#firsth2{
+    padding-top: 0px;
+}
+
+main li{
+    list-style-type: none;
+}
+
+main a{
+    color: var(--white);
+}
+
+input[type="checkbox"] {
+    appearance: none; /* Supprime le style natif */
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    border: 2px solid var(--blue); /* Bleu */
+    border-radius: 4px;
+    background-color: var(--white);
+    margin-right: 10px;
+    position: relative;
+}
+
+input[type="checkbox"]:checked::after {
+    content:'✔' ;
+    color: var(--blue);
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="checkbox"]:disabled {
+    cursor: not-allowed;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3{
+    color: white;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.div_mmm>div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+    width: 50vw;
+    margin: auto;
+    gap: 30px;
+    padding: 2vh;
+    border-radius: 15px;
+}
+
+.div_mmm>div p{
+    text-align: center;
+}
+
+.div_mmm{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-bottom: 5vh;
+}
+
+.presentation_projet p{
+    background-color: var(--grey);
+    padding: 3vh;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.p_esp{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.last_form{
+    gap: 0px;
+}
+
+.esp_bas{
+    margin-bottom: 3vh;
+}
+
+.div_btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div_btn li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div_btn li:first-child{
+    margin: auto;
+    width: 60vw;
+    background-color: var(--grey);
+    padding: 10px;
+    border: 2px solid var(--blue);
+    border-radius: 15px;
+    
+}
+
+.div_btn li:last-child{
+    margin: auto;
+    width: 60vw;
+    background-color: var(--blue);
+    padding: 10px;
+    border: 2px solid var(--grey);
+    border-radius: 15px;
+
 }

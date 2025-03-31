@@ -109,8 +109,8 @@
 .btn-burger{
     /* z-index: ; */
     position: relative;
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
 }
 
 
@@ -254,7 +254,7 @@ footer ul{
     background-color: var(--black);
     height: 100px;
     min-height: 100px;
-    padding: 3vw;
+    padding: 5vw;
     position: fixed;
     top: 0%;
     z-index: 2;
