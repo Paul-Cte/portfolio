@@ -59,7 +59,7 @@ main img{
     width: 50px;
     height: 50px;
     display: block;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 
@@ -72,9 +72,10 @@ main img{
     height: max-content;
     border: 1px solid black;
     padding: 0.5vh;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: var(--white);
-    box-shadow: 0px 0px 10px var(--blue);
+    box-shadow: 0px 0px 5px var(--blue);
+    border: 2px solid var(--blue);
 }
 
 .div-reseaux>div:first-of-type{
@@ -124,11 +125,12 @@ figcaption{
     min-height: 92px;
     min-width: 92px;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 2vh;
     margin-bottom: 4vh;
     background-color: var(--white);
-    box-shadow: 0px 0px 10px var(--blue);
+    box-shadow: 0px 0px 5px var(--blue);
+    border: 2px solid var(--blue);
 }
 
 .deux-p{
@@ -166,9 +168,58 @@ footer{
 }
 
 main{
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 #last_p{
     margin-top: 5vh;
 }
+
+form{
+    margin-top: 100px;
+    justify-content: center;
+    height:calc(100vh - 100px);
+    gap: 20px;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input{
+    width: 100%;
+    padding-left: 5px;
+}
+
+#nom,#email{
+    height: 40px;
+    border-radius: 7px;
+    border: 2px solid var(--blue);
+    box-shadow: 0px 0px 5px var(--blue);
+
+}
+
+#message{
+    min-height: 50vh;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid var(--blue);
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px var(--blue);
+    resize: vertical;
+}
+
+
+
+form button{
+    height: 30px;
+    width: 135px;
+    background-color: var(--blue);
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px var(--white);
+}
+
+
+
+
+
