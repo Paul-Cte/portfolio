@@ -252,9 +252,10 @@ footer ul{
 .div-h1{
     width: 100%;
     background-color: var(--black);
-    height: 100px;
-    min-height: 100px;
-    padding: 5vw;
+    height: 75px;
+    min-height: 75px;
+    max-height: 75px;
+    padding: 17.5px;
     position: fixed;
     top: 0%;
     z-index: 2;

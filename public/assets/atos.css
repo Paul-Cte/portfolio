@@ -21,6 +21,9 @@
     color: var(--blue);
 }
 
+body{
+    background-color: var(--black);
+}
 
 main{
     margin-top: 100px;
