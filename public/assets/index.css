@@ -165,6 +165,12 @@ p {
     padding: 5vh!important;
 }
 
+.h2-projets:first-of-type {
+    padding-top: 0vh!important;
+}
+
+
+
 i:hover{
     color: var(--blue);
 }

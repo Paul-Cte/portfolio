@@ -15,10 +15,11 @@ html, body {
 }
 
 h2{
-    font-size: 35px;
+    font-size: 25px;
     text-transform: capitalize;
     color: var(--white);
     text-align: center;
+    margin-bottom: 2vh;
 }
 
 
@@ -29,7 +30,7 @@ main{
     width: 100%;
     padding-left: 10vw;
     padding-right:10vw ;
-    padding-top: 2vh;
+    /* padding-top: 2vh; */
     background-color: var(--black);
 }
 
@@ -42,7 +43,6 @@ main p{
 .div-reseaux{
     width: 100%;
     gap: 2vh;
-    padding-bottom: 2vh;
 }
 
 .div-reseaux li{
@@ -74,7 +74,7 @@ main img{
     padding: 0.5vh;
     border-radius: 15px;
     background-color: var(--white);
-    box-shadow: 0px 0px 5px var(--white);
+    box-shadow: 0px 0px 10px var(--blue);
 }
 
 .div-reseaux>div:first-of-type{
@@ -94,6 +94,7 @@ h3,h4{
 
 h3{
     color: var(--white);
+    text-align: center;
 }
 
 #discord{
@@ -101,6 +102,7 @@ h3{
 }
 h4{
     padding-left: 25px;
+    color: var(--blue);
 }
 
 figure{
@@ -114,7 +116,7 @@ figure img{
 
 figcaption{
     font-size: 15px;
-
+    color: var(--blue);
 }
 
 
@@ -124,9 +126,9 @@ figcaption{
     border: 1px solid black;
     border-radius: 15px;
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 4vh;
     background-color: var(--white);
-    box-shadow: 0px 0px 5px var(--white);
+    box-shadow: 0px 0px 10px var(--blue);
 }
 
 .deux-p{
@@ -165,4 +167,8 @@ footer{
 
 main{
     margin-top: 100px;
+}
+
+#last_p{
+    margin-top: 5vh;
 }
