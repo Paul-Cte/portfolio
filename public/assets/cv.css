@@ -1,0 +1,62 @@
+:root{
+    --black:#222831;
+    --grey:#393E46;
+    --blue:#00ADB5;
+    --white:#EEEEEE;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.div-h1{
+    justify-content:flex-start;
+}
+
+.div-h1 h1{
+    text-align: center;
+    width: 150px;
+    margin-left: calc((96vw - 220px)/2); /* Attention si redimension de l'icone croix, 
+    il faudra aussi redimensionner ici pour que le h1 reste centré */
+}
+
+.div-h1 i{
+    font-size: 35px;
+    color: var(--blue);
+}
+
+h2 {
+    color: var(--blue);
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  p {
+    margin: 0 0 10px 0;
+  }
+
+  .div1{
+    margin-top: 54px;
+  }
+
+  /* Appliquer le même style à toutes les div principales */
+  .div1, .div2, .div3, .div4, .div5, .div6 {
+    background-color: var(--grey);
+    color: var(--white);
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px var(--white);
+  }

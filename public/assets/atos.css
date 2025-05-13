@@ -112,6 +112,7 @@ h3{
     gap: 30px;
     padding: 2vh;
     border-radius: 15px;
+    box-shadow: 0px 0px 5px var(--white);
 }
 
 .div_mmm>div p{
@@ -126,6 +127,7 @@ h3{
 }
 
 .presentation_projet p{
+    box-shadow: 0px 0px 5px var(--white);
     background-color: var(--grey);
     padding: 3vh;
     border-radius: 15px;
