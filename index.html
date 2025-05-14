@@ -9,7 +9,7 @@
 </head>
 <body id="accueil" class="">
 
-
+<header>
     <div class="flex-row items-center div-h1">
         <a  href="../index.html"><i class="fi fi-rr-home btn-homeee"></i></a>
         <h1>Home</h1>
@@ -23,29 +23,33 @@
     <div class="liste-menu flex-row">
         <div class="overlay close-by-clic">
         </div>
-        <ul class="flex-column items-center justify-center">
-            <li><a href="index.html">Accueil</a></li>
+        <ul class="items-center">
+            <li><a class="active-link" href="index.html">Accueil</a></li>
             <li><a href="view/monparcours.html">Mon parcours</a></li>
             <li><a href="view/mecontacter.html">Me contacter</a></li>
             <li><a href="view/activiteetloisirs.html">Activité et loisirs</a></li>
             <img id="btn_fermeture" src="image/fermer.png" alt="btn_fermeture">
         </ul>
     </div>
-
+</header>
 
 
     <main class="flex-column justify-center items-center">
-        <img id="photodp" src="image/dembele.jpg" alt="photo de profile">
-        <h3>Hi, I'm</h3>
-        <h1>PAUL COMTE</h1>
-        <h2>DEVELOPER</h2>
-        <div class="btn-accueil">
-            <button><a class="flex-row items-align justify-center" href="../view/mecontacter.html">Informations de contact</a></button>
-            <button class="flex-row items-center justify-center download" ><a href="./view/cv.html" >Voir mon cv</a></button>
+        <div>
+            <img id="photodp" src="image/moi.jpeg" alt="photo de profile">
         </div>
-        <div class="resaux-accueil flex-row">
-            <li><a href="https://github.com/Paul-Cte"><i class="fi fi-brands-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/paul-comte-5794b1333/"><i class="fi fi-brands-linkedin"></i></a></li>
+        <div class="flex-column items-center">
+            <h3>Hi, I'm</h3>
+            <h1>PAUL COMTE</h1>
+            <h2>DEVELOPER</h2>
+            <div class="btn-accueil">
+                <button><a class="flex-row items-align justify-center" href="../view/mecontacter.html">Contact</a></button>
+                <button class="flex-row items-center justify-center download" ><a href="./view/cv.html" >Voir mon cv</a></button>
+            </div>
+            <div class="resaux-accueil flex-row">
+                <li><a href="https://github.com/Paul-Cte"><i class="fi fi-brands-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/paul-comte-5794b1333/"><i class="fi fi-brands-linkedin"></i></a></li>
+            </div>
         </div>
     </main>
 

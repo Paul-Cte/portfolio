@@ -37,6 +37,14 @@ h2 {
     margin-bottom: 10px;
   }
 
+  header ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  header li{
+    margin-bottom: 0px;
+  }
   li {
     margin-bottom: 6px;
   }

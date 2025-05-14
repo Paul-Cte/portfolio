@@ -69,6 +69,7 @@ main img{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    max-width: 500px;
     height: max-content;
     border: 1px solid black;
     padding: 0.5vh;
@@ -134,7 +135,7 @@ figcaption{
 }
 
 .deux-p{
-    gap: 7vw;
+    gap: 30px;
 }
 
 .mail a{
@@ -176,18 +177,20 @@ main{
 }
 
 form{
-    margin-top: 100px;
+    margin-top: 75px;
     justify-content: center;
     height:calc(100vh - 100px);
     gap: 20px;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
 }
 
 form input{
     width: 100%;
     padding-left: 5px;
+    max-width: 450px;
 }
 
 #nom,#email{
@@ -206,6 +209,7 @@ form input{
     border-radius: 8px;
     box-shadow: 0px 0px 5px var(--blue);
     resize: vertical;
+    max-width: 450px;
 }
 
 
@@ -217,9 +221,27 @@ form button{
     border: 1px solid var(--grey);
     border-radius: 8px;
     box-shadow: 0px 0px 5px var(--white);
+    color: var(--white);
 }
 
+form button:hover{
+    transform: scale(1.05);
+    transition: 0.15s ease-in-out;
+}
 
+@media (min-width: 1000px) {
+.div-responsive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+main{
+    margin-top: 14vh;
+}
+}
 
 
 

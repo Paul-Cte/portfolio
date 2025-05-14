@@ -12,27 +12,32 @@
 </head>
 <body id="accueil" class="">
 
+    <header>
+        
+        <div class="flex-row items-center div-h1">
+            <a href="../index.html"><i class="fi fi-rr-home"></i></a>
+            <h1>Contact</h1>
+            <div class="btn-burger">
+                <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
+            </div>
+        </div>
     <div class="liste-menu flex-row">
         <div class="overlay close-by-clic">
         </div>
         <ul class="flex-column items-center justify-center">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="monparcours.html">Mon parcours</a></li>
-            <li><a href="mecontacter.html">Me contacter</a></li>
+            <li><a class="active-link" href="mecontacter.html">Me contacter</a></li>
             <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
             <img id="btn_fermeture" src="../image/fermer.png" alt="btn_fermeture">
         </ul>
     </div>
 
     
-    <div class="flex-row items-center div-h1">
-        <a href="../index.html"><i class="fi fi-rr-home"></i></a>
-        <h1>Contact</h1>
-        <div class="btn-burger">
-            <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
-        </div>
-    </div>
+    
+</header>
 
+<div class="div-responsive">
     <form class="flex-column items-center" action="https://formspree.io/f/manoleen" method="POST" enctype="multipart/form-data">
         <input name="Nom complet" id="nom" type="text" placeholder="Full Name" required>
         <input name="email" id="email" type="email" placeholder="Email Adress" required>
@@ -59,7 +64,7 @@
     </div>
 </div>
 
-    <div class="div-reseaux flex-column items-align">
+    <div class="div-reseaux flex-column items-center">
         <h3>Or On:</h3>
         
         <div>
@@ -96,7 +101,7 @@
     <p id="last_p">If you want to share any of my social media, just click on the "copy" button. For discord, only the discord ID will be copied</p>
 </main>
 
-
+</div>
 
 
 
