@@ -28,6 +28,7 @@ body{
 main{
     margin-top: 100px;
     padding: 3vh;
+    padding-bottom: 5vh;
     background-color: var(--black);
 }
 
@@ -116,6 +117,7 @@ h3{
     padding: 2vh;
     border-radius: 8px;
     box-shadow: 0px 0px 5px var(--white);
+    max-width: 300px;
 }
 
 .div_mmm>div p{
@@ -135,6 +137,7 @@ h3{
     padding: 3vh;
     border-radius: 8px;
     text-align: center;
+    max-width: 750px;
 }
 
 .p_esp{
@@ -150,6 +153,10 @@ h3{
     margin-bottom: 3vh;
 }
 
+.esp_bas,.p_esp{
+    text-decoration: underline; 
+}
+
 .div_btn{
     display: flex;
     flex-direction: column;
@@ -160,6 +167,7 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 300px;
 }
 
 .div_btn li:first-child{
@@ -180,4 +188,194 @@ h3{
     border: 2px solid var(--grey);
     border-radius: 15px;
 
+}
+
+@media (min-width: 1500px) {
+    p{
+        margin: auto;
+    }
+
+    .div_mmm{
+    display: flex;
+    flex-direction: row;
+    /* gap: 3vw; */
+    margin-bottom: 5vh;
+    justify-content: center;
+    }
+
+    .div_mmm>div{
+        margin: 0px;
+    }
+
+    .div_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    /* gap: 10px; */
+    margin-top: 5vh;
+    }
+
+    .div_btn li:first-child{
+        margin: 0px;
+    }
+
+    .div_btn li:last-child{
+        margin:0px;
+    }
+
+    #le_p_le_l{
+        text-align: center;
+        width: 60vw!important;
+        margin-bottom: 4vh;
+    }
+
+    form{
+        margin-left: 25vw!important;
+    }
+
+    .esp_bas,.p_esp{
+        /* text-align: center;
+        text-decoration:overline;*/
+        text-decoration: underline; 
+        margin-left: 22vw!important;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .h3-margin-resp{
+        margin-top: 9vh;
+        margin-bottom: 9vh;
+    }
+    
+}
+
+@media (min-width: 750px) {
+    p{
+        margin: auto;
+    }
+
+    .div_mmm{
+    display: flex;
+    flex-direction: row;
+    /* gap: 3vw; */
+    margin-bottom: 5vh;
+    justify-content: center;
+}
+
+    .div_mmm>div{
+        margin: 0px;
+    }
+
+    .div_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    /* gap: 10px; */
+    margin-top: 5vh;
+    }
+
+    .div_btn li:first-child{
+        margin: 0px;
+    }
+
+    .div_btn li:last-child{
+        margin:0px;
+    }
+
+    #le_p_le_l{
+        text-align: center;
+        width: 70vw;
+        margin-bottom: 4vh;
+    }
+
+    form{
+        margin-left: 10vw;
+    }
+
+    .esp_bas,.p_esp{
+        /* text-align: center;
+        text-decoration:overline;*/
+        text-decoration: underline; 
+        margin-left: 7vw;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .h3-margin-resp{
+        margin-top: 9vh;
+        margin-bottom: 9vh;
+    }
+    
+}
+
+
+@media (min-width: 1300px) {
+    p{
+        margin: auto;
+    }
+
+    .div_mmm{
+    display: flex;
+    flex-direction: row;
+    /* gap: 3vw; */
+    margin-bottom: 5vh;
+    justify-content: center;
+}
+
+    .div_mmm>div{
+        margin: 0px;
+    }
+
+    .div_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    /* gap: 10px; */
+    margin-top: 5vh;
+    }
+
+    .div_btn li:first-child{
+        margin: 0px;
+    }
+
+    .div_btn li:last-child{
+        margin:0px;
+    }
+
+    #le_p_le_l{
+        text-align: center;
+        width: 70vw;
+        margin-bottom: 4vh;
+    }
+
+    form{
+        margin-left: 20vw;
+    }
+
+    .esp_bas,.p_esp{
+        /* text-align: center;
+        text-decoration:overline;*/
+        text-decoration: underline; 
+        margin-left: 17vw;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .h3-margin-resp{
+        margin-top: 9vh;
+        margin-bottom: 9vh;
+    }
+    
 }
