@@ -221,6 +221,7 @@ footer ul{
     right: 7px;
     bottom: 3vh;
     z-index: 60;
+    width: 80px;
 }
 
 .fond-contact a{
@@ -240,11 +241,11 @@ footer ul{
 
 .img-contact{
     font-size: 35px;
+    transition: 0.3s ease-in-out;
 }
 
 .btn-contact-me:hover .img-contact{
     transform: scale(1.1);
-    transition: 0.1s ease-in-out;
 }
 
 /* pour les pages avec un titre en haut */
