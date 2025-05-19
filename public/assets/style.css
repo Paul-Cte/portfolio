@@ -265,6 +265,7 @@ footer ul{
 .div-h1 i{
     font-size: 40px;
     color: var(--blue);
+    margin-top: 10px;
 }
 
 .div-h1 h1{
@@ -274,16 +275,16 @@ footer ul{
 
 .div-h1 a{
     text-decoration: none;
-    z-index: 50;
+    /* z-index: 50; */
 }
 
 footer p{
     font-size: 10px;
 }
 
-/* a,i{
-    display:contents;
-} */
+a,i{
+    display:inline-block;
+}
 
 
 
