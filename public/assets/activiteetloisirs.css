@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    margin-top: calc(100px + 2vh);
+    margin-top: 100px;
     margin-bottom: 5vh;
     max-width: 750px;
 }
