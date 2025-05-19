@@ -68,7 +68,6 @@ if (window.innerWidth >= 750) {
     });
   }
 
-
 const rond = document.getElementById('rond');
 
 let mouseX = 0;
@@ -87,23 +86,39 @@ document.addEventListener('click', () => {
   rond.style.transition = 'transform 0.2s ease';
   rond.style.transform = `translate(-50%, -50%) scale(${scale})`;
 
-  // Revenir à la taille normale après 200ms
   setTimeout(() => {
     scale = 1;
     rond.style.transform = `translate(-50%, -50%) scale(${scale})`;
   }, 200);
 });
 
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
+}
+
 function animate() {
   currentX += (mouseX - currentX) * 0.1;
   currentY += (mouseY - currentY) * 0.1;
 
+  const scrollX = window.scrollX || window.pageXOffset;
+  const scrollY = window.scrollY || window.pageYOffset;
+
+  const maxX = scrollX + window.innerWidth - 25;
+  const clampedX = clamp(currentX, 0, maxX);
+
+  rond.style.left = `${clampedX}px`;
+  rond.style.top = `${currentY}px`;
+
+  // Disparaitre si la souris est dans la zone des 10px à droite
+  if (mouseX > maxX) {
+    rond.style.opacity = '0';
+  } else {
+    rond.style.opacity = '1';
+  }
+
   if (scale === 1) {
     rond.style.transform = `translate(-50%, -50%) scale(${scale})`;
   }
-
-  rond.style.left = `${currentX}px`;
-  rond.style.top = `${currentY}px`;
 
   requestAnimationFrame(animate);
 }
