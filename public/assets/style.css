@@ -375,8 +375,9 @@ a,i{
         font-size: 17px;
     }
 
-    .liste-menu li:hover {
-        text-decoration:underline var(--blue);
+
+    .liste-menu a:hover {
+        text-decoration:underline var(--blue)!important;
     }
 
     .liste-menu a:active {

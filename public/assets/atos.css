@@ -33,6 +33,7 @@ body{
 main{
     margin-top: 100px;
     padding: 3vh;
+    padding-top: 0px;
     padding-bottom: 5vh;
     background-color: var(--black);
 }
@@ -122,7 +123,7 @@ h3{
     padding: 2vh;
     border-radius: 8px;
     box-shadow: 0px 0px 5px var(--white);
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .div_mmm>div p{
@@ -172,7 +173,7 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .div_btn li:first-child{
@@ -193,6 +194,10 @@ h3{
     border: 2px solid var(--grey);
     border-radius: 15px;
 
+}
+
+.div_btn a{
+    text-decoration: none;
 }
 
 footer p{
@@ -238,7 +243,7 @@ footer p{
 
     #le_p_le_l{
         text-align: center;
-        width: 60vw!important;
+        width: 45vw!important;
         margin-bottom: 4vh;
     }
 
@@ -305,7 +310,7 @@ footer p{
 
     #le_p_le_l{
         text-align: center;
-        width: 70vw;
+        width: 700px;
         margin-bottom: 4vh;
     }
 
