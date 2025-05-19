@@ -19,16 +19,18 @@ body{
     align-items: flex-end;
     margin-bottom: 7vh;
     margin-top: calc(100px + 5vh);
+    /* max-width: ; */
 }
 
 .trait-milieu{
     position: absolute;
     height: 100%;
-    width: 1vw;
+    width: 3px;
     /* content: ""; */
     background-color: var(--blue);
     top: 0%;
-    left: 9%;
+    left: 9%;   
+    /* left: 40px; */
 }
 
 .point-frise{
@@ -38,6 +40,7 @@ body{
     border-radius: 100%;
     bottom: calc(50% - 15px) ;
     left: calc(-30vw + 11.5%);
+    /* left: -93.5px; */
     background-color: var(--white);
 }
 
@@ -47,6 +50,7 @@ body{
     color: white;
     height: auto;
     width: 50vw;
+    /* max-width: 200px; */
     padding: 1vh;
     border-radius: 8px;
     text-align: center;

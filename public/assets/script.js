@@ -43,22 +43,6 @@ if(close_by_clic.length>0){
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
-  const details = document.getElementsByTagName('details')[0];
-  const summary = document.getElementsByTagName('summary')[0];
-
-  if (details && summary) {
-      summary.addEventListener('click', () => {
-          setTimeout(() => { // Timeout pour attendre la mise à jour de `details.open`
-              summary.textContent = details.open ? "Fermer" : "Plus de détails";
-          }, 0);
-      });
-  } else {
-      console.error("Les éléments <details> ou <summary> sont introuvables.");
-  }
-});
-
-
 
 document.querySelectorAll(".shareButton").forEach(button => {
   button.addEventListener("click", () => {
