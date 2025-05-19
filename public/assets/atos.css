@@ -190,9 +190,17 @@ h3{
 
 }
 
+footer p{
+        margin: 0px;
+    }
+
 @media (min-width: 1500px) {
     p{
         margin: auto;
+    }
+
+    footer p{
+        margin: 0px;
     }
 
     .div_mmm{
@@ -258,6 +266,10 @@ h3{
         margin: auto;
     }
 
+    footer p{
+        margin: 0px;
+    }
+    
     .div_mmm{
     display: flex;
     flex-direction: row;
