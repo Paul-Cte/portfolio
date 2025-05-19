@@ -7,6 +7,7 @@
 
 .div-h1{
     justify-content:flex-start;
+    z-index: 149!important;
 }
 
 .div-h1 h1{
@@ -14,6 +15,10 @@
     width: 150px;
     margin-left: calc((96vw - 220px)/2); /* Attention si redimension de l'icone croix, 
     il faudra aussi redimensionner ici pour que le h1 reste centré */
+}
+
+.div-h1 a{
+    z-index: 150!important;
 }
 
 .div-h1 i{
