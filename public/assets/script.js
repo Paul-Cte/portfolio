@@ -69,6 +69,49 @@ if (window.innerWidth >= 750) {
   }
 
 
+const rond = document.getElementById('rond');
+
+let mouseX = 0;
+let mouseY = 0;
+let currentX = 0;
+let currentY = 0;
+let scale = 1;
+
+document.addEventListener('mousemove', (e) => {
+  mouseX = e.pageX;
+  mouseY = e.pageY;
+});
+
+document.addEventListener('click', () => {
+  scale = 1.5;
+  rond.style.transition = 'transform 0.2s ease';
+  rond.style.transform = `translate(-50%, -50%) scale(${scale})`;
+
+  // Revenir à la taille normale après 200ms
+  setTimeout(() => {
+    scale = 1;
+    rond.style.transform = `translate(-50%, -50%) scale(${scale})`;
+  }, 200);
+});
+
+function animate() {
+  currentX += (mouseX - currentX) * 0.1;
+  currentY += (mouseY - currentY) * 0.1;
+
+  if (scale === 1) {
+    rond.style.transform = `translate(-50%, -50%) scale(${scale})`;
+  }
+
+  rond.style.left = `${currentX}px`;
+  rond.style.top = `${currentY}px`;
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+
+
+
 
 
 
