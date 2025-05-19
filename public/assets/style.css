@@ -416,9 +416,8 @@ a,i{
     #accueil .img-hamburger {
         display: none;
     }
-}
-
-#rond {
+    
+    #rond {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -430,4 +429,9 @@ a,i{
   z-index: 999;
 }
 
-    
+}
+
+
+    #rond {
+  display: none;
+}
