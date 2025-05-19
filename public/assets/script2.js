@@ -1,14 +1,9 @@
-const btn_fermture_menu = document.getElementById('btn_fermeture');
+  const clickableDiv = document.getElementById("clickableDiv");
 
-
-
-const closeMenu = () => {
-    window.location.href = "https://paulcteportfolio.netlify.app/#goto";
-};
-
-btn_fermture_menu.addEventListener('click',closeMenu)
-
-
+  // Ajoute un écouteur de clic
+  clickableDiv.addEventListener("click", function() {
+    window.location.href = "autrepage.html"; // Redirection vers la nouvelle page
+  });
 
 
 
