@@ -274,6 +274,7 @@ footer ul{
 
 .div-h1 a{
     text-decoration: none;
+    z-index: 50;
 }
 
 footer p{
