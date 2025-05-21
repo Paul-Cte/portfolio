@@ -1,53 +1,104 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentions légales</title>
+    <title>Accueil</title>
+        <link rel="stylesheet" href="../public/assets/mentionslegales.css">
     <link rel="stylesheet" href="../public/assets/style.css">
-    <!-- <link rel="stylesheet" href="assets/index.css"> -->
+    <!-- <link rel="stylesheet" href="public/assets/index.css"> -->
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
 </head>
-<body id="accueil" class="">
-<div id="rond"></div>
- 
-    <div class="liste-menu flex-row" id="clickAbleDiv">
+
+<body id="accueil" class=""> 
+    <div id="rond"></div>
+
+
+
+
+<header>
+    <div class="flex-row items-center div-h1" id="clickAbleDiv">
+        <a  href="../index.html"><i class="fi fi-rr-home btn-homeee"></i></a>
+        <h1>Home</h1>
+        <div class="btn-burger">
+            <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
+        </div>
+    </div>
+
+
+
+    <div class="liste-menu flex-row">
         <div class="overlay close-by-clic">
         </div>
-        <ul class="flex-column items-center justify-center">
+        <ul class="items-center">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="monparcours.html">Mon parcours</a></li>
             <li><a href="mecontacter.html">Me contacter</a></li>
             <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
-            <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
+            <img id="btn_fermeture" src="../image/fermer.png" alt="btn_fermeture">
         </ul>
     </div>
+</header>
 
+<main class="mentions-container">
+    <section class="mentions-section">
+        <h2>Informations légales</h2>
+        <p>
+            Ce site est édité à titre personnel dans le cadre d'un projet/portfolio individuel.
+        </p>
+        <p>
+            Responsable de la publication : <strong>Paul Comte</strong><br>
+        </p>
+        <p>
+            Hébergement : ce site est hébergé sur les serveurs de Netlify.
+        </p>
+    </section>
 
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/javascript" title="javascript icônes">Javascript icônes créées par Pixel perfect - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/html-5" title="html 5 icônes">Html 5 icônes créées par Freepik - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/css-3" title="css 3 icônes">Css 3 icônes créées par Freepik - Flaticon</a></li>
-    <a href="https://www.flaticon.com/fr/icones-gratuites/php" title="php icônes">Php icônes créées par Freepik - Flaticon</a>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/langage-de-programmation" title="langage de programmation icônes">Langage de programmation icônes créées par Soremba - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/c" title="c icônes">C icônes créées par justicon - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/instagram" title="instagram icônes">Instagram icônes créées par Freepik - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par riajulislam - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/tweeter" title="tweeter icônes">Tweeter icônes créées par Freepik - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/discorde" title="discorde icônes">Discorde icônes créées par Freepik - Flaticon</a></li>
-    <li><a href="https://www.flaticon.com/fr/icones-gratuites/email" title="email icônes">Email icônes créées par adrianadam - Flaticon</a></li>
+    <section class="mentions-section">
+        <h2>Propriété intellectuelle</h2>
+        <p>
+            L’ensemble des contenus présents sur ce site (textes, code, éléments graphiques, etc.) sont la propriété de leur auteur, sauf mention contraire.
+        </p>
+        <p>
+            Les icônes utilisées proviennent du site <a href="https://www.flaticon.com" target="_blank" rel="noopener noreferrer">Flaticon</a> :
+        </p>
+        <ul class="icon-credits">
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/javascript">Javascript icônes par Pixel perfect</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/html-5">Html 5 icônes par Freepik</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/css-3">Css 3 icônes par Freepik</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/php">Php icônes par Freepik</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/langage-de-programmation">Langage de programmation icônes par Soremba</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/c">C icônes par justicon</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/instagram">Instagram icônes par Freepik</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/linkedin">Linkedin icônes par riajulislam</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/tweeter">Tweeter icônes par Freepik</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/discorde">Discorde icônes par Freepik</a></li>
+            <li><a href="https://www.flaticon.com/fr/icones-gratuites/email">Email icônes par adrianadam</a></li>
+        </ul>
+    </section>
+
+    <section class="mentions-section ia-section">
+        <h2>Images générées par intelligence artificielle</h2>
+        <p>
+            Des images présentes sur ce site ont été générées par une intelligence artificielle à l’aide de ChatGPT (via DALL·E). Elles sont utilisées dans un but illustratif.
+        </p>
+    </section>
+</main>
 
     <footer class="flex-row justify-center">
         <ul class="flex-column">
             <li><a href="../index.html">Accueil</a></li>
             <li><a href="monparcours.html">Mon parcours</a></li>
             <li><a href="mecontacter.html">Me contacter</a></li>
+            <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
         </ul>
         <ul>
             <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
-            <li><a href="mecontacter.html">Me contacter</a></li>
             <li><a href="mentionslegales.html">Mentions légales</a></li>
         </ul>
     </footer>
-    
+
     <script type="text/javascript" src="../public/assets/script.js"></script>
 </body>
 </html>
