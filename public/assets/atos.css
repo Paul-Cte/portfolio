@@ -1,36 +1,37 @@
-:root{
-    --black:#222831;
-    --grey:#393E46;
-    --blue:#00ADB5;
-    --white:#EEEEEE;
+:root {
+    --black: #222831;
+    --grey: #393E46;
+    --blue: #00ADB5;
+    --white: #EEEEEE;
 }
 
-.div-h1{
-    justify-content:flex-start;
-    z-index: 149!important;
+.div-h1 {
+    justify-content: flex-start;
+    position: relative;
+    z-index: 149;
 }
 
-.div-h1 h1{
-    text-align: center;
-    width: 150px;
-    margin-left: calc((96vw - 220px)/2); /* Attention si redimension de l'icone croix, 
-    il faudra aussi redimensionner ici pour que le h1 reste centré */
+.div-h1 a {
+    position: relative;
+    z-index: 150;
 }
 
-.div-h1 a{
-    z-index: 150!important;
-}
-
-.div-h1 i{
+.div-h1 i {
     font-size: 35px;
     color: var(--blue);
 }
 
-body{
+.div-h1 h1 {
+    text-align: center;
+    width: 150px;
+    margin-left: calc((96vw - 220px)/2);
+}
+
+body {
     background-color: var(--black);
 }
 
-main{
+main {
     margin-top: 100px;
     padding: 3vh;
     padding-top: 0px;
@@ -38,40 +39,39 @@ main{
     background-color: var(--black);
 }
 
-
-main h2{
+main h2 {
     text-align: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
     color: var(--white);
 }
 
-main img{
+main img {
     width: 30px;
 }
 
-main p{
+main p {
     color: var(--white);
 }
 
-#firsth2{
+#firsth2 {
     padding-top: 0px;
 }
 
-main li{
+main li {
     list-style-type: none;
 }
 
-main a{
+main a {
     color: var(--white);
 }
 
 input[type="checkbox"] {
-    appearance: none; /* Supprime le style natif */
+    appearance: none;
     width: 20px;
     min-width: 20px;
     height: 20px;
-    border: 2px solid var(--blue); /* Bleu */
+    border: 2px solid var(--blue);
     border-radius: 4px;
     background-color: var(--white);
     margin-right: 10px;
@@ -79,7 +79,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked::after {
-    content:'✔' ;
+    content: '✔';
     color: var(--blue);
     position: absolute;
     left: 2px;
@@ -92,27 +92,34 @@ input[type="checkbox"]:disabled {
     cursor: not-allowed;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-form label{
+form label {
     color: var(--white);
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-h3{
+h3 {
     color: white;
     margin-bottom: 5vh;
     margin-top: 5vh;
 }
 
-.div_mmm>div{
-    display:flex;
+.div_mmm {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-bottom: 5vh;
+}
+
+.div_mmm > div {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -126,18 +133,11 @@ h3{
     max-width: 200px;
 }
 
-.div_mmm>div p{
+.div_mmm > div p {
     text-align: center;
 }
 
-.div_mmm{
-    display: flex;
-    flex-direction: column;
-    gap: 3vh;
-    margin-bottom: 5vh;
-}
-
-.presentation_projet p{
+.presentation_projet p {
     box-shadow: 0px 0px 5px var(--white);
     background-color: var(--grey);
     padding: 3vh;
@@ -146,258 +146,222 @@ h3{
     max-width: 750px;
 }
 
-.p_esp{
+.p_esp {
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
 
-.last_form{
+.last_form {
     gap: 0px;
 }
 
-.esp_bas{
+.esp_bas {
     margin-bottom: 3vh;
 }
 
-.esp_bas,.p_esp{
-    text-decoration: underline; 
+.esp_bas, .p_esp {
+    text-decoration: underline;
 }
 
-.div_btn{
+.div_btn {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.div_btn li{
+.div_btn li {
     display: flex;
     flex-direction: row;
     justify-content: center;
     max-width: 200px;
 }
 
-.div_btn li:first-child{
+.div_btn li:first-child,
+.div_btn li:last-child {
     margin: auto;
     width: 60vw;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.div_btn li:first-child {
     background-color: var(--grey);
-    padding: 10px;
     border: 2px solid var(--blue);
-    border-radius: 15px;
-    
 }
 
-.div_btn li:last-child{
-    margin: auto;
-    width: 60vw;
+.div_btn li:last-child {
     background-color: var(--blue);
-    padding: 10px;
     border: 2px solid var(--grey);
-    border-radius: 15px;
-
 }
 
-.div_btn a{
+.div_btn a {
     text-decoration: none;
 }
 
-footer p{
-        margin: 0px;
-    }
-
-@media (min-width: 1500px) {
-    p{
-        margin: auto;
-    }
-
-    footer p{
-        margin: 0px;
-    }
-
-    .div_mmm{
-    display: flex;
-    flex-direction: row;
-    /* gap: 3vw; */
-    margin-bottom: 5vh;
-    justify-content: center;
-    }
-
-    .div_mmm>div{
-        margin: 0px;
-    }
-
-    .div_btn{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    /* gap: 10px; */
-    margin-top: 5vh;
-    }
-
-    .div_btn li:first-child{
-        margin: 0px;
-    }
-
-    .div_btn li:last-child{
-        margin:0px;
-    }
-
-    #le_p_le_l{
-        text-align: center;
-        width: 45vw!important;
-        margin-bottom: 4vh;
-    }
-
-    form{
-        margin-left: 25vw!important;
-    }
-
-    .esp_bas,.p_esp{
-        /* text-align: center;
-        text-decoration:overline;*/
-        text-decoration: underline; 
-        margin-left: 22vw!important;
-        margin-top: 4vh;
-        margin-bottom: 4vh;
-    }
-
-    h3{
-        text-align: center;
-    }
-
-    .h3-margin-resp{
-        margin-top: 9vh;
-        margin-bottom: 9vh;
-    }
-    
+footer p {
+    margin: 0px;
 }
 
+.div-img-du-projet {
+    width: 90vw;
+    margin: auto;
+}
+
+.img-du-projet {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Responsive - 750px */
 @media (min-width: 750px) {
-    p{
+    p {
         margin: auto;
     }
 
-    footer p{
-        margin: 0px;
-    }
-    
-    .div_mmm{
-    display: flex;
-    flex-direction: row;
-    /* gap: 3vw; */
-    margin-bottom: 5vh;
-    justify-content: center;
-}
-
-    .div_mmm>div{
-        margin: 0px;
-    }
-
-    .div_btn{
-        display: flex;
+    .div_mmm {
         flex-direction: row;
         justify-content: center;
-    /* gap: 10px; */
-    margin-top: 5vh;
     }
 
-    .div_btn li:first-child{
-        margin: 0px;
+    .div_mmm > div {
+        margin: 0;
     }
 
-    .div_btn li:last-child{
-        margin:0px;
+    .div_btn {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5vh;
     }
 
-    #le_p_le_l{
+    .div_btn li:first-child,
+    .div_btn li:last-child {
+        margin: 0;
+    }
+
+    #le_p_le_l {
         text-align: center;
         width: 700px;
         margin-bottom: 4vh;
     }
 
-    form{
-        margin-left: 10vw;
+    main form {
+        margin-left: 9vw;
     }
 
-    .esp_bas,.p_esp{
-        /* text-align: center;
-        text-decoration:overline;*/
-        text-decoration: underline; 
+    .esp_bas,
+    .p_esp {
         margin-left: 7vw;
         margin-top: 4vh;
         margin-bottom: 4vh;
     }
 
-    h3{
+    h3 {
         text-align: center;
     }
 
-    .h3-margin-resp{
+    .h3-margin-resp {
         margin-top: 9vh;
         margin-bottom: 9vh;
     }
-    
 }
 
-
-@media (min-width: 1300px) {
-    p{
-        margin: auto;
-    }
-
-    .div_mmm{
-    display: flex;
-    flex-direction: row;
-    /* gap: 3vw; */
-    margin-bottom: 5vh;
-    justify-content: center;
-}
-
-    .div_mmm>div{
-        margin: 0px;
-    }
-
-    .div_btn{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    /* gap: 10px; */
-    margin-top: 5vh;
-    }
-
-    .div_btn li:first-child{
-        margin: 0px;
-    }
-
-    .div_btn li:last-child{
-        margin:0px;
-    }
-
-    #le_p_le_l{
-        text-align: center;
-        width: 70vw;
-        margin-bottom: 4vh;
-    }
-
-    form{
+/* Responsive - 1000px */
+@media (min-width: 1000px) {
+    main form {
         margin-left: 20vw;
     }
 
-    .esp_bas,.p_esp{
-        /* text-align: center;
-        text-decoration:overline;*/
-        text-decoration: underline; 
-        margin-left: 17vw;
-        margin-top: 4vh;
-        margin-bottom: 4vh;
+    #le_p_le_l {
+        width: 700px;
     }
 
-    h3{
+    .esp_bas,
+    .p_esp {
+        margin-left: 18vw;
+    }
+}
+
+/* Responsive - 1300px */
+@media (min-width: 1300px) {
+    .div_mmm {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .div_mmm > div {
+        margin: 0;
+    }
+
+    .div_btn {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+    .div_btn li:first-child,
+    .div_btn li:last-child {
+        margin: 0;
+    }
+
+    #le_p_le_l {
+        width: 50vw;
+    }
+
+    main form {
+        margin-left: 25vw;
+    }
+
+    .esp_bas,
+    .p_esp {
+        margin-left: 23vw;
+    }
+}
+
+/* Responsive - 1500px */
+@media (min-width: 1500px) {
+    p {
+        margin: auto;
+    }
+
+    .div_mmm {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .div_mmm > div {
+        margin: 0;
+    }
+
+    .div_btn {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+    .div_btn li:first-child,
+    .div_btn li:last-child {
+        margin: 0;
+    }
+
+    #le_p_le_l {
+        width: 40vw;
+    }
+
+    main form {
+        margin-left: 30vw;
+    }
+
+    .esp_bas,
+    .p_esp {
+        margin-left: 28vw;
+    }
+
+    h3 {
         text-align: center;
     }
 
-    .h3-margin-resp{
+    .h3-margin-resp {
         margin-top: 9vh;
         margin-bottom: 9vh;
     }
-    
 }
