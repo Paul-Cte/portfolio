@@ -78,4 +78,16 @@ body {
   .card-loisir h2 {
     font-size: 1.25rem;
   }
+
+  
+}
+
+@media screen and (max-width: 750px){
+  #h1{
+    display: none;
+  }
+
+  .container-loisirs {
+    margin-top: 100px;
+  }
 }
