@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activité et loisirs</title>
-    <link rel="stylesheet" href="../public/assets/style.css">
-    <link rel="stylesheet" href="../public/assets/activiteetloisirs.css">
-    <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activités & Loisirs</title>
+  <link rel="stylesheet" href="../public/assets/style.css" />
+  <link rel="stylesheet" href="../public/assets/activiteetloisirs.css" />
+  <link rel="icon" href="../image/favicon.ico" type="image/x-icon" />
 </head>
-<body id="accueil" class="">
+<body id="accueil">
 
   <div id="rond"></div>
 
@@ -28,7 +28,7 @@
             <li><a href="../index.html#projets">Mes projets</a></li>
             <li><a href="monparcours.html">Mon parcours</a></li>
             <li><a href="mecontacter.html">Me contacter</a></li>
-            <li><a class="active-link" href="activiteetloisirs.html">Activité et loisirs</a></li>
+            <li><a class="active-link" href="activiteetloisirs.html">Activités et loisirs</a></li>
             <img id="btn_fermeture" src="../image/fermer.png" alt="btn_fermeture">
         </ul>
     </div>
@@ -41,47 +41,51 @@
     
 </header>
 
-<div class="div-responsive-al">
-    <main class="flex-column main-frise">
-        <h2>Athlétisme</h2>
-        <div class="flex-column items-center athle">
-            <!-- <img class="coureurbleu" src="../image/coureur_bleu.png" alt="image coureur bleu"> -->
-            <p>Je fais de l'athlétisme depuis 2022 en compétiton. Je suis un coureur de 400m. Durant ces 4 années, j'ai pu acquérir
-                de nombreuses compétences comme la discipline, la détermination et un esprit de compétition. J'ai pu aussi apprendre à me relever mlalgrès de nombreuses
-                blessures dans ce parcours. 
-            </p>        
-        </div>
-    </main>
+<h1 id="h1">Mes activités et loisirs</h1>
+<main class="container-loisirs">
+  <section class="card-loisir">
+    <img src="../image/sprint.png" alt="Sprint" class="img-loisir" />
+    <h2>🏃 Athlétisme</h2>
+    <p>
+      Je pratique le sprint depuis 2022 en compétition. Mon épreuve principale est le 400m. Grâce à ce sport, j'ai développé la discipline, la détermination et la résilience face aux blessures. Je cours actuellement le 100m en 11"75.
+    </p>
+  </section>
 
-    <div class="flex-column main-frise main2">
-        <h2>Garde d'enfants</h2>
-        <div class="flex-column items-center athle">
-            <!-- <img class="coureurbleu" src="../image/enfants.png" alt="image coureur bleu"> -->
-            <p>J'ai passé le BAFA et ai donc fait de la garde d'enfants. J'ai fais de la garde d'enfants en centre de loisirs avec toute
-                les tranches d'âges. J'ai eu des répsonsabilités, j'ai pu apprendre à organiser des activités de groupe, à être patient
-                et à travailler en équipe avec d'autres animateurs. 
-            </p>        
-        </div>
-    </div>
-</div>
+  <section class="card-loisir">
+    <img src="../image/enfant_parc.png" alt="Garde d'enfants" class="img-loisir" />
+    <h2>👶 Animation & Garde d'enfants</h2>
+    <p>
+      Titulaire du BAFA, j’ai animé des groupes d’enfants de tous âges en centre de loisirs. Cette expérience m’a appris à organiser des activités, à travailler en équipe et à gérer les responsabilités d’un encadrement pédagogique.
+    </p>
+  </section>
 
+  <section class="card-loisir">
+    <img src="../image/img_dev_web_2.png" alt="Création web" class="img-loisir" />
+    <h2>💻 Création web</h2>
+    <p>
+      Créer des sites web est une vraie passion. J’aime expérimenter, concevoir des interfaces et donner vie à des idées personnelles. C’est à la fois un loisir et une façon d’apprendre continuellement.
+    </p>
+  </section>
 
+  
+</main>
 
+<footer class="flex-row justify-center">
+  <ul class="flex-column">
+    <li><a href="../index.html">Accueil</a></li>
+    <li><a href="../index.html#projets">Mes projets</a></li>
+    <li><a href="monparcours.html">Mon parcours</a></li>
+    <li><a href="mecontacter.html">Me contacter</a></li>
+    <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
+  </ul>
+  <ul>
+    <li class="flex-row items-center">
+      <p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a>
+    </li>
+    <li><a href="mentionslegales.html">Mentions légales</a></li>
+  </ul>
+</footer>
 
-    <footer class="flex-row justify-center">
-        <ul class="flex-column">
-            <li><a href="../index.html">Accueil</a></li>
-            <li><a href="../index.html#projets">Mes projets</a></li>
-            <li><a href="monparcours.html">Mon parcours</a></li>
-            <li><a href="mecontacter.html">Me contacter</a></li>
-            <li><a href="activiteetloisirs.html">Activité et loisirs</a></li>
-        </ul>
-        <ul>
-            <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
-            <li><a href="mentionslegales.html">Mentions légales</a></li>
-        </ul>
-    </footer>
-    
-    <script type="text/javascript" src="../public/assets/script.js"></script>
+<script type="text/javascript" src="../public/assets/script.js"></script>
 </body>
 </html>
