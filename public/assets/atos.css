@@ -177,6 +177,10 @@ h3 {
     max-width: 200px;
 }
 
+.div_btn li:hover {
+    box-shadow: 0px 0px 5px var(--white);
+}
+
 .div_btn li:first-child,
 .div_btn li:last-child {
     margin: auto;

@@ -12,6 +12,13 @@
     scroll-behavior: smooth;
 }
 
+/* S'applique à Firefox */
+* {
+  scrollbar-width: thin; /* 'auto' | 'thin' | 'none' */
+  scrollbar-color: var(--blue) var(--grey); /* thumb color, track color */
+}
+
+
 /* S'applique aux navigateurs basés sur WebKit (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
   width: 10px; /* Largeur de la barre verticale */
@@ -147,7 +154,7 @@
     border-left: 2px solid var(--black);
     display: flex;
     flex-direction: column;
-    gap: 1vh;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -192,7 +199,7 @@
 }
 
 #accueil .img-hamburger{
-    height: 40px;
+    height: 35px;
     z-index: 60;
     position: absolute;
     top: 50%;
@@ -284,7 +291,7 @@ footer ul{
 }
 
 .div-h1 i{
-    font-size: 40px;
+    font-size: 35px;
     color: var(--blue);
     margin-top: 10px;
 }
