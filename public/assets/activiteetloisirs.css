@@ -20,11 +20,12 @@ body {
 
 .container-loisirs {
   max-width: 1200px;
+  width: 90vw;
   margin: 120px auto 60px;
   margin-top: 5vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  gap:40px;
   padding: 0 20px;
 }
 
@@ -67,6 +68,7 @@ body {
 @media screen and (max-width: 600px) {
   .container-loisirs {
     grid-template-columns: 1fr;
+    gap: 60px;
   }
 
   .card-loisir {
