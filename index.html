@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Home</title>
     <link rel="stylesheet" href="public/assets/style.css">
     <link rel="stylesheet" href="public/assets/index.css">
     <link rel="icon" href="image/favicon.ico" type="image/x-icon">
@@ -12,57 +12,49 @@
 <body id="accueil" class=""> 
     <div id="rond"></div>
 
-
-
-
 <header>
-    <div class="flex-row items-center div-h1" >
-        <a  href="../index.html"><i class="fi fi-rr-home btn-homeee"></i></a>
+    <div class="flex-row items-center div-h1">
+        <a href="../index.html"><i class="fi fi-rr-home btn-homeee"></i></a>
         <h1>Home</h1>
         <div class="btn-burger">
             <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="image/menu-burger.png" alt="menu burger"></button>
         </div>
     </div>
 
-
-
     <div class="liste-menu flex-row">
-        <div class="overlay close-by-clic">
-        </div>
+        <div class="overlay close-by-clic"></div>
         <ul class="items-center">
-            <li><a class="active-link" href="index.html">Accueil</a></li>
-            <li><a class="" href="index.html#projets">Mes projets</a></li>
-            <li><a href="view/monparcours.html">Mon parcours</a></li>
-            <li><a href="view/mecontacter.html">Me contacter</a></li>
-            <li><a href="view/activiteetloisirs.html">Activités et loisirs</a></li>
+            <li><a class="active-link" href="index.html">Home</a></li>
+            <li><a class="" href="index.html#projets">My Projects</a></li>
+            <li><a href="view/monparcours.html">My Background</a></li>
+            <li><a href="view/mecontacter.html">Contact Me</a></li>
+            <li><a href="view/activiteetloisirs.html">Activities and Hobbies</a></li>
             <img id="btn_fermeture" src="image/fermer.png" alt="btn_fermeture">
         </ul>
     </div>
 </header>
 
-
-    <main class="flex-column justify-center items-center">
-        <div>
-            <img id="photodp" src="image/moi.jpeg" alt="photo de profile">
+<main class="flex-column justify-center items-center">
+    <div>
+        <img id="photodp" src="image/moi.jpeg" alt="profile picture">
+    </div>
+    <div class="flex-column items-center">
+        <h3>Hi, I'm</h3>
+        <h1>PAUL COMTE</h1>
+        <h2>DEVELOPER</h2>
+        <div class="btn-accueil">
+            <button><a class="flex-row items-align justify-center" href="../view/mecontacter.html">Contact</a></button>
+            <button class="flex-row items-center justify-center download"><a href="./view/cv.html">View my CV</a></button>
         </div>
-        <div class="flex-column items-center">
-            <h3>Hi, I'm</h3>
-            <h1>PAUL COMTE</h1>
-            <h2>DEVELOPER</h2>
-            <div class="btn-accueil">
-                <button><a class="flex-row items-align justify-center" href="../view/mecontacter.html">Contact</a></button>
-                <button class="flex-row items-center justify-center download" ><a href="./view/cv.html" >View my cv</a></button>
-            </div>
-            <div class="resaux-accueil flex-row">
-                <li><a href="https://github.com/Paul-Cte"><i class="fi fi-brands-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/paul-comte-5794b1333/"><i class="fi fi-brands-linkedin"></i></a></li>
-            </div>
+        <div class="resaux-accueil flex-row">
+            <li><a href="https://github.com/Paul-Cte"><i class="fi fi-brands-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/paul-comte-5794b1333/"><i class="fi fi-brands-linkedin"></i></a></li>
         </div>
-    </main>
+    </div>
+</main>
 
-
-<h1 class="h1-projets" id="projets">My projects</h1>
-<h2 class=" h2-projets" id="goto">Projets académiques</h2>
+<h1 class="h1-projets" id="projets">My Projects</h1>
+<h2 class="h2-projets" id="goto">Academic Projects</h2>
 <div class="flex-row items-center justify-center div-projets">
     <div class="div-projets-img">
         <li><a href="view/atos.html"><img src="image/img_atos_ia.png" alt="projet_java"></a></li>
@@ -70,37 +62,36 @@
     </div>
 </div>
 
-<h2 class="h2-projets" id="goto2">Projets personnels</h2>
+<h2 class="h2-projets" id="goto2">Personal Projects</h2>
 <div class="flex-row items-center justify-center div-projets">
     <div class="div-projets-img">
         <li><a href="view/restaurant.html"><img src="image/img_resto_ramen.png" alt="projet_java"></a></li>
-        <h3>Site Restaurant</h3>
+        <h3>Restaurant Website</h3>
     </div>
     <div class="div-projets-img"> 
         <img src="image/img_citation_philo.png" alt="projet_siteCitation">
-        <h3>Site Citation</h3>
+        <h3>Quote Website</h3>
     </div>
     <div class="div-projets-img">
         <img src="image/img_biblio.png" alt="projet_biblio">
-        <h3>Bibliotheque Java</h3>
+        <h3>Java Library</h3>
     </div>
 </div>
 
+<footer class="flex-row justify-center">
+    <ul class="flex-column">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#projets">My Projects</a></li>
+        <li><a href="view/monparcours.html">My Background</a></li>
+        <li><a href="view/mecontacter.html">Contact Me</a></li>
+        <li><a href="view/activiteetloisirs.html">Activities and Hobbies</a></li>
+    </ul>
+    <ul>
+        <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
+        <li><a href="view/mentionslegales.html">Legal Notice</a></li>
+    </ul>
+</footer>
 
-    <footer class="flex-row justify-center">
-        <ul class="flex-column">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="index.html#projets">Mes projets</a></li>
-            <li><a href="view/monparcours.html">Mon parcours</a></li>
-            <li><a href="view/mecontacter.html">Me contacter</a></li>
-            <li><a href="view/activiteetloisirs.html">Activités et loisirs</a></li>
-        </ul>
-        <ul>
-            <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
-            <li><a href="view/mentionslegales.html">Mentions légales</a></li>
-        </ul>
-    </footer>
-
-    <script type="text/javascript" src="public/assets/script.js"></script>
+<script type="text/javascript" src="public/assets/script.js"></script>
 </body>
 </html>

@@ -3,124 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Me contacter</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="../public/assets/style.css">
     <link rel="stylesheet" href="../public/assets/mecontacter.css">
-    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css”>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
 </head>
 <body id="accueil" class="">
 <div id="rond"></div>
     <header>
-        
         <div class="flex-row items-center div-h1">
             <a href="../index.html"><i class="fi fi-rr-home"></i></a>
             <h1>Contact</h1>
             <div class="btn-burger">
-                <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="menu burger"></button>
+                <button class="fond-burger flex-row items-center justify-center"><img class="img-hamburger" src="../image/menu-burger.png" alt="hamburger menu"></button>
             </div>
         </div>
-    <div class="liste-menu flex-row">
-        <div class="overlay close-by-clic">
+        <div class="liste-menu flex-row">
+            <div class="overlay close-by-clic"></div>
+            <ul class="flex-column items-center justify-center">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#projets">My Projects</a></li>
+                <li><a href="monparcours.html">My Background</a></li>
+                <li><a class="active-link" href="mecontacter.html">Contact Me</a></li>
+                <li><a href="activiteetloisirs.html">Activities and Hobbies</a></li>
+                <img id="btn_fermeture" src="../image/fermer.png" alt="close button">
+            </ul>
         </div>
-        <ul class="flex-column items-center justify-center">
-            <li><a href="../index.html">Accueil</a></li>
-            <li><a href="../index.html#projets">Mes projets</a></li>
-            <li><a href="monparcours.html">Mon parcours</a></li>
-            <li><a class="active-link" href="mecontacter.html">Me contacter</a></li>
-            <li><a href="activiteetloisirs.html">Activités et loisirs</a></li>
-            <img id="btn_fermeture" src="../image/fermer.png" alt="btn_fermeture">
-        </ul>
+    </header>
+
+    <div class="div-responsive">
+        <form class="flex-column items-center" action="https://formspree.io/f/manoleen" method="POST" enctype="multipart/form-data">
+            <input name="Nom complet" id="nom" type="text" placeholder="Full Name" required>
+            <input name="email" id="email" type="email" placeholder="Email Address" required>
+            <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <main>
+            <div>
+                <h2>Don't hesitate to contact me on:</h2>
+            </div>
+            <div class="flex-row justify-center items-center deux-p">
+                <div class="flex-row items-center justify-center mail">
+                    <figure class="flex-column items-center justify-center">
+                        <a class="flex-column-reverse justify-center items-center" href="mailto:paul.comte3878@gmail.com">
+                            <figcaption>Email me</figcaption>
+                            <p><img src="../image/e-mail_contact.png" alt="email"></p>
+                        </a>
+                    </figure>
+                </div>
+
+                <div class="flex-row items-center justify-center mail">
+                    <figure class="flex-column items-center justify-center">
+                        <a class="flex-column-reverse justify-center items-center" href="https://www.linkedin.com/in/paul-comte-5794b1333/">
+                            <figcaption>LinkedIn</figcaption>
+                            <p><img src="../image/linkedin_contact.png" alt="linkedin"></p>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="div-reseaux flex-column items-center">
+                <h3>Or on:</h3>
+                <div>
+                    <img src="../image/discord_contact.png" alt="discord">
+                    <h4 id="discord">Discord</h4>
+                    <img src="../image/copier-le-contenu.png" class="shareButton" alt="copy">
+                </div>        
+                <div>
+                    <li><a href="https://github.com/Paul-Cte"><img src="../image/github.png" alt="github"></a></li>
+                    <a href="https://github.com/Paul-Cte"><h4>GitHub</h4><img class="curseur" src="../image/curseur.png" alt="cursor"></a>
+                    <img src="../image/copier-le-contenu.png" alt="copy" class="shareButton">
+                </div>
+                <div>
+                    <li><a href="https://www.instagram.com/paul_.ct_/"><img src="../image/instagram_contact.png" alt="instagram"></a></li>
+                    <a href="https://www.instagram.com/paul_.ct_/"><h4>Instagram</h4><img class="curseur" src="../image/curseur.png" alt="cursor"></a>
+                    <img src="../image/copier-le-contenu.png" class="shareButton" alt="copy">
+                </div>
+                <div>
+                    <li><a href="https://x.com/Pauloff_"><img src="../image/twitter_contact.png" alt="X/twitter"></a></li>
+                    <a href="https://x.com/Pauloff_"><h4>X/Twitter</h4><img class="curseur" src="../image/curseur.png" alt="cursor"></a>
+                    <img src="../image/copier-le-contenu.png" alt="copy" class="shareButton">
+                </div>
+            </div>
+
+            <p id="last_p">If you want to share any of my social media, just click on the "copy" button. For Discord, only the Discord ID will be copied.</p>
+        </main>
     </div>
-
-    
-    
-</header>
-
-<div class="div-responsive">
-    <form class="flex-column items-center" action="https://formspree.io/f/manoleen" method="POST" enctype="multipart/form-data">
-        <input name="Nom complet" id="nom" type="text" placeholder="Full Name" required>
-        <input name="email" id="email" type="email" placeholder="Email Adress" required>
-        <textarea name="message" id="message" placeholder="Your message..." required></textarea>
-        <button type="submit">Send</button>
-    </form>
-
-
-    <main>
-    <div>
-        <h2>Don't hesitate to contact me on :</h2>
-    </div>
-<div class="flex-row justify-center items-center deux-p">
-    <div class="flex-row items-center justify-center mail">
-            <figure class="flex-column items-center justify-center">
-                <a class="flex-column-reverse justify-center items-center" href="mailto:paul.comte3878@gmail.com"><figcaption>Email me</figcaption><p><img src="../image/e-mail_contact.png" alt="mail"></p></a>
-            </figure>
-    </div>
-    
-    <div class="flex-row items-center justify-center mail">
-        <figure class="flex-column items-center justify-center">
-            <a class="flex-column-reverse justify-center items-center" href="https://www.linkedin.com/in/paul-comte-5794b1333/"><figcaption>Linkedin</figcaption><p><img src="../image/linkedin_contact.png" alt="linkedin"></p></a>
-        </figure>
-    </div>
-</div>
-
-    <div class="div-reseaux flex-column items-center">
-        <h3>Or On:</h3>
-        
-        <div>
-            <img src="../image/discord_contact.png" alt="discord">
-            
-                <h4 id="discord">Discord</h4>
-          
-            <img src="../image/copier-le-contenu.png" class="shareButton" alt="share">
-        </div>        
-        <div>
-            <li><a href="https://github.com/Paul-Cte"><img src="../image/github.png" alt="github"></a></li>
-       
-                <a href="https://github.com/Paul-Cte"><h4>Github</h4><img class="curseur" src="../image/curseur.png" alt="curseur"></a>
-          
-           <img src="../image/copier-le-contenu.png" alt="share" class="shareButton">
-        </div>
-        <div>
-            <li><a href="https://www.instagram.com/paul_.ct_/"><img src="../image/instagram_contact.png" alt="instagram"></a></li>
-        
-                <a href="https://www.instagram.com/paul_.ct_/"><h4>Instagram</h4><img class="curseur" src="../image/curseur.png" alt="curseur"></a>
-   
-            
-            <img src="../image/copier-le-contenu.png" class="shareButton" alt="copy">
-        </div>
-        <div>
-            <li><a href="https://x.com/Pauloff_"><img src="../image/twitter_contact.png" alt="X/twitter"></a></li>
-          
-                <a href="https://x.com/Pauloff_"><h4>X/Twitter</h4><img class="curseur" src="../image/curseur.png" alt="curseur"></a>
-
-            <img src="../image/copier-le-contenu.png" alt="share" class="shareButton">
-        </div>
-
-    </div>
-    <p id="last_p">If you want to share any of my social media, just click on the "copy" button. For discord, only the discord ID will be copied</p>
-</main>
-
-</div>
-
-
 
     <footer class="flex-row justify-center">
         <ul class="flex-column">
-            <li><a href="../index.html">Accueil</a></li>
-            <li><a href="../index.html#projets">Mes projets</a></li>
-            <li><a href="monparcours.html">Mon parcours</a></li>
-            <li><a href="mecontacter.html">Me contacter</a></li>
-            <li><a href="activiteetloisirs.html">Activités et loisirs</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#projets">My Projects</a></li>
+            <li><a href="monparcours.html">My Background</a></li>
+            <li><a href="mecontacter.html">Contact Me</a></li>
+            <li><a href="activiteetloisirs.html">Activities and Hobbies</a></li>
         </ul>
         <ul>
-            <li class="flex-row items-center"><p>Uicons by &nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
-            <li><a href="mentionslegales.html">Mentions légales</a></li>
-
+            <li class="flex-row items-center"><p>Uicons by&nbsp;</p><a href="https://www.flaticon.com/uicons">Flaticon</a></li>
+            <li><a href="mentionslegales.html">Legal Notice</a></li>
         </ul>
     </footer>
-    
+
     <script type="text/javascript" src="../public/assets/script.js"></script>
 </body>
 </html>
