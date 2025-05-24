@@ -105,7 +105,6 @@ document.getElementById('shareGithub').addEventListener("click", () => {
       // Copier le lien dans le presse-papiers
       navigator.clipboard.writeText(discordUrl)
           .then(() => {
-            alert('Le lien vers X a bien été copié');
               console.log("Lien copié !");
           })
           .catch(err => {
