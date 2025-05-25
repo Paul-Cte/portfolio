@@ -1,11 +1,9 @@
-// Fonctionne sur Netlify et en local
 if (
   window.location.pathname === "/" ||
   window.location.pathname.endsWith("/index.html")
 ) {
     const sectionProjets = document.getElementById("projets");
 
-    // Recherche les deux variantes possibles de liens
     const linkAccueil = document.querySelector('a[href="/"], a[href="index.html"]');
     const linkProjets = document.querySelector('a[href="#projets"], a[href="index.html#projets"]');
 
