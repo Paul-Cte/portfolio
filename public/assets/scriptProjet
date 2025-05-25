@@ -1,0 +1,24 @@
+// Uniquement si on est sur index.html
+if (window.location.pathname.includes("index.html") || window.location.pathname === "/" || window.location.pathname === "/index.html") {
+    const sectionProjets = document.getElementById("projets");
+    const linkAccueil = document.querySelector('a[href="index.html"]');
+    const linkProjets = document.querySelector('a[href="index.html#projets"]');
+
+    const updateActiveLink = () => {
+        const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+        if (sectionProjets && scrollPosition >= sectionProjets.offsetTop) {
+            // Ajouter active-link à "Mes projets"
+            linkProjets?.classList.add("active-link");
+            // Enlever active-link de "Accueil"
+            linkAccueil?.classList.remove("active-link");
+        } else {
+            // Revenir à Accueil
+            linkAccueil?.classList.add("active-link");
+            linkProjets?.classList.remove("active-link");
+        }
+    };
+
+    window.addEventListener("scroll", updateActiveLink);
+    window.addEventListener("load", updateActiveLink); // Pour état initial
+}
