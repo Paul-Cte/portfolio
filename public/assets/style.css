@@ -12,11 +12,6 @@
     scroll-behavior: smooth;
 }
 
-/* S'applique à Firefox */
-* {
-  scrollbar-width: thin; /* 'auto' | 'thin' | 'none' */
-  scrollbar-color: var(--blue) var(--grey); /* thumb color, track color */
-}
 
 
 /* S'applique aux navigateurs basés sur WebKit (Chrome, Safari, Edge) */
