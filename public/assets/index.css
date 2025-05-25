@@ -104,7 +104,7 @@ h1, h2, h3 {
 .h1-projets{
     text-align: center;
     text-decoration: underline var(--blue);
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 
@@ -195,6 +195,20 @@ i:hover{
 
 footer{
     margin-top: 5vh;
+}
+
+.tips-projet{
+    width: 80vw;
+    max-width: 500px;
+    background-color: var(--grey);
+    box-shadow: 0px 0px 5px var(--white);
+    text-align: center;
+    margin: auto;
+    color:var(--white);
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 5vh;
+    padding: 5px;
 }
 
 @media (min-width: 1000px) {
