@@ -4,7 +4,7 @@ if (
 ) {
     const sectionProjets = document.getElementById("projets");
 
-    const linkAccueil = document.querySelector('a[href="https://paulcteportfolio.netlify.app/"], a[href="index.html"]');
+    const linkAccueil = document.querySelector('a[href="/"], a[href="index.html"]');
     const linkProjets = document.querySelector('a[href="#projets"], a[href="index.html#projets"]');
 
     const updateActiveLink = () => {
