@@ -438,3 +438,11 @@ a,i{
     #rond {
   display: none;
 }
+
+#copyright{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+    background-color: var(--grey);
+    color: var(--white);
+}
