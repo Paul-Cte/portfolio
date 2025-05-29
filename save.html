@@ -32,28 +32,54 @@
                 <li><a href="view/activiteetloisirs.html">My Activities</a></li>
                 <img id="btn_fermeture" src="image/fermer.png" alt="btn_fermeture">
             </ul>
-
     </div>
 </header>
 
-<main class="flex-column justify-center items-center">
-    <div>
-        <img id="photodp" src="image/moi.jpeg" alt="profile picture">
-    </div>
-    <div class="flex-column items-center">
-        <h3>Hi, I'm</h3>
-        <h1>PAUL COMTE</h1>
-        <h2>DEVELOPER</h2>
-        <div class="btn-accueil">
-            <button><a class="flex-row items-align justify-center" href="../view/mecontacter.html">Contact</a></button>
-            <button class="flex-row items-center justify-center download"><a href="./view/cv.html">View my CV</a></button>
+<main class="hero-container">
+    <div class="hero-content">
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <img id="photodp" src="image/moi.jpeg" alt="profile picture">
+                <div class="profile-ring"></div>
+                <div class="profile-glow"></div>
+            </div>
         </div>
-        <div class="resaux-accueil flex-row">
-            <li><a href="https://github.com/Paul-Cte"><i class="fi fi-brands-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/paul-comte-5794b1333/"><i class="fi fi-brands-linkedin"></i></a></li>
+        
+        <div class="intro-section">
+            <div class="greeting-badge">
+                <span class="greeting-text">Hello, I'm</span>
+            </div>
+            <h1 class="name-title">PAUL COMTE</h1>
+            <h2 class="role-subtitle">FULL STACK DEVELOPER</h2>
+            
+            <div class="cta-buttons">
+                <button class="btn-primary">
+                    <a href="../view/mecontacter.html">
+                        <span>Get In Touch</span>
+                        <i class="fi fi-rr-arrow-right"></i>
+                    </a>
+                </button>
+                <button class="btn-secondary">
+                    <a href="./view/cv.html">
+                        <span>View Resume</span>
+                        <i class="fi fi-rr-document"></i>
+                    </a>
+                </button>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Paul-Cte" class="social-link">
+                    <i class="fi fi-brands-github"></i>
+                    <span class="social-tooltip">GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/paul-comte-5794b1333/" class="social-link">
+                    <i class="fi fi-brands-linkedin"></i>
+                    <span class="social-tooltip">LinkedIn</span>
+                </a>
+            </div>
         </div>
     </div>
-</main>
+    
     <div class="scroll-indicator">
         <div class="scroll-text">Scroll to explore</div>
         <div class="scroll-arrow">
@@ -62,9 +88,9 @@
     </div>
 </main>
 
-<section class="projects-section" id="projets">
+<section class="projects-section">
     <div class="section-header">
-        <h1 class="section-title" >My Projects</h1>
+        <h1 class="section-title" id="projets">My Projects</h1>
         <p class="section-subtitle">Discover my latest work and creative solutions</p>
     </div>
     
@@ -188,7 +214,7 @@
         <li><a href="view/mentionslegales.html">Legal Notice</a></li>
     </ul>
 </footer>
-    <p id="copyright">&copy; 2025 Paul Comte. Tous droits réservés.</p>
+<p id="copyright">&copy; 2025 Paul Comte. Tous droits réservés.</p>
 
 <script type="text/javascript" src="public/assets/script.js"></script>
 <script type="text/javascript" src="public/assets/scriptRond.js"></script>

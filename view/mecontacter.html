@@ -10,7 +10,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <link rel="icon" href="../image/favicon.ico" type="image/x-icon">
 </head>
-<body id="accueil" class="">
+<body id="accueil">
 <div id="rond"></div>
     <header>
         <div class="flex-row items-center div-h1">
@@ -33,63 +33,123 @@
         </div>
     </header>
 
-    <div class="div-responsive">
-        <form class="flex-column items-center" action="https://formspree.io/f/manoleen" method="POST" enctype="multipart/form-data">
-            <input name="Nom complet" id="nom" type="text" placeholder="Full Name" required>
-            <input name="email" id="email" type="email" placeholder="Email Address" required>
-            <textarea name="message" id="message" placeholder="Your message..." required></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <div class="page-container">
+        <section class="hero-section">
+            <h1 class="hero-title">Let's Get In Touch</h1>
+            <p class="hero-subtitle">Ready to collaborate or just want to say hello?</p>
+        </section>
 
-        <main>
-            <div>
-                <h2>Don't hesitate to contact me on:</h2>
-            </div>
-            <div class="flex-row justify-center items-center deux-p">
-                <div class="flex-row items-center justify-center mail">
-                    <figure class="flex-column items-center justify-center">
-                        <a class="flex-column-reverse justify-center items-center" href="mailto:paul.comte3878@gmail.com">
-                            <figcaption>Email me</figcaption>
-                            <p><img src="../image/e-mail_contact.png" alt="email"></p>
-                        </a>
-                    </figure>
-                </div>
-
-                <div class="flex-row items-center justify-center mail">
-                    <figure class="flex-column items-center justify-center">
-                        <a class="flex-column-reverse justify-center items-center" href="https://www.linkedin.com/in/paul-comte-5794b1333/">
-                            <figcaption>LinkedIn</figcaption>
-                            <p><img src="../image/linkedin_contact.png" alt="linkedin"></p>
-                        </a>
-                    </figure>
-                </div>
-            </div>
-
-            <div class="div-reseaux flex-column items-center">
-                <h3>Or on:</h3>
-                <div>
-                    <img src="../image/discord_contact.png" alt="discord">
-                    <h4 id="discord">Discord</h4>
-                    <img src="../image/copier-le-contenu.png" class="shareButton" id="shareDiscord" alt="copy">
-                </div>        
-                <div>
-                    <li><a href="https://github.com/Paul-Cte"><img src="../image/github.png" alt="github"></a></li>
-                    <a href="https://github.com/Paul-Cte"><h4>GitHub</h4><img class="curseur" src="../image/curseur.png" alt="cursor"></a>
-                    <img src="../image/copier-le-contenu.png" alt="copy" class="shareButton" id="shareGithub">
-                </div>
-                <div>
-                    <li><a href="https://www.instagram.com/paul_.ct_/"><img src="../image/instagram_contact.png" alt="instagram"></a></li>
-                    <a href="https://www.instagram.com/paul_.ct_/"><h4>Instagram</h4><img class="curseur" src="../image/curseur.png" alt="cursor"></a>
-                    <img src="../image/copier-le-contenu.png" class="shareButton" id="shareInstagram" alt="copy">
-                </div>
-                <div>
-                    <li><a href="https://x.com/Pauloff_"><img src="../image/twitter_contact.png" alt="X/twitter"></a></li>
-                    <a href="https://x.com/Pauloff_"><h4>X/Twitter</h4><img class="curseur" src="../image/curseur.png" alt="cursor"></a>
-                    <img src="../image/copier-le-contenu.png" alt="copy" class="shareButton" id="shareX">
+        <main class="contact-container">
+            <div class="contact-spotlight">
+                <div class="spotlight-content">
+                    <div class="contact-form-section">
+                        <div class="form-header">
+                            <div class="activity-category">Contact Form</div>
+                            <h2>Send Me A Message</h2>
+                            <p class="form-description">
+                                Have a project in mind or just want to chat? Drop me a message and I'll get back to you as soon as possible.
+                            </p>
+                        </div>
+                        <form class="contact-form" action="https://formspree.io/f/manoleen" method="POST" enctype="multipart/form-data">
+                            <input name="Nom complet" id="nom" type="text" placeholder="Full Name" required>
+                            <input name="email" id="email" type="email" placeholder="Email Address" required>
+                            <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+                            <button type="submit">
+                                <span>Send Message</span>
+                                <span class="button-icon">📧</span>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="contact-info-section">
+                        <div class="info-header">
+                            <h3>Quick Contact</h3>
+                            <p>Prefer a direct approach? Reach out through these channels:</p>
+                        </div>
+                        <div class="primary-contacts">
+                            <div class="contact-card email-card">
+                                <div class="card-icon">📧</div>
+                                <div class="card-content">
+                                    <h4>Email</h4>
+                                    <a href="mailto:paul.comte3878@gmail.com">paul.comte3878@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-card linkedin-card">
+                                <div class="card-icon">💼</div>
+                                <div class="card-content">
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/paul-comte-5794b1333/" target="_blank">Connect with me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <p id="last_p">If you want to share any of my social media, just click on the "copy" button. For Discord, only the Discord ID will be copied.</p>
+            <div class="social-section">
+                <div class="section-header">
+                    <h2>Find Me Online</h2>
+                    <p>Connect with me on social media or check out my work</p>
+                </div>
+                <div class="social-grid">
+                    <div class="social-card discord-card">
+                        <div class="social-icon">🎮</div>
+                        <div class="social-content">
+                            <h4>Discord</h4>
+                            <p>Chat with me directly</p>
+                            <div class="social-actions">
+                                <span class="discord-id">Click to copy ID</span>
+                                <button class="copy-btn" id="shareDiscord">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-card github-card">
+                        <div class="social-icon">💻</div>
+                        <div class="social-content">
+                            <h4>GitHub</h4>
+                            <p>Check out my code</p>
+                            <div class="social-actions">
+                                <a href="https://github.com/Paul-Cte" target="_blank">Visit Profile</a>
+                                <button class="copy-btn" id="shareGithub">Share</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-card instagram-card">
+                        <div class="social-icon">📸</div>
+                        <div class="social-content">
+                            <h4>Instagram</h4>
+                            <p>Follow my journey</p>
+                            <div class="social-actions">
+                                <a href="https://www.instagram.com/paul_.ct_/" target="_blank">Follow Me</a>
+                                <button class="copy-btn" id="shareInstagram">Share</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-card twitter-card">
+                        <div class="social-icon">🐦</div>
+                        <div class="social-content">
+                            <h4>X/Twitter</h4>
+                            <p>Latest updates</p>
+                            <div class="social-actions">
+                                <a href="https://x.com/Pauloff_" target="_blank">Follow Me</a>
+                                <button class="copy-btn" id="shareX">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="contact-statement">
+                <div class="statement-content">
+                    <h2>Ready to Work Together?</h2>
+                    <p>Whether you have a project in mind, want to collaborate, or just want to connect, I'm always open to new opportunities and conversations. Don't hesitate to reach out!</p>
+                    <div class="statement-highlight">
+                        <span class="highlight-text">Let's create something amazing together</span>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -110,6 +170,6 @@
 
     <script type="text/javascript" src="../public/assets/script.js"></script>
     <script type="text/javascript" src="../public/assets/scriptRond.js"></script>
-        <script type="text/javascript" src="../public/assets/scriptShare.js"></script>
+    <script type="text/javascript" src="../public/assets/scriptShare.js"></script>
 </body>
 </html>
